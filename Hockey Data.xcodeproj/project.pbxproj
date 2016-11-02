@@ -7,25 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AC31DCA64ED00486657 /* AKTeamViewController.m */; };
+		39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39021AC41DCA64ED00486657 /* AKTeamViewController.xib */; };
 		396C8E821CDA7D20004AD32D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E811CDA7D20004AD32D /* main.m */; };
 		396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E841CDA7D20004AD32D /* AppDelegate.m */; };
-		396C8E881CDA7D20004AD32D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E871CDA7D20004AD32D /* ViewController.m */; };
-		396C8E8B1CDA7D20004AD32D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E891CDA7D20004AD32D /* Main.storyboard */; };
 		396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8C1CDA7D20004AD32D /* Assets.xcassets */; };
 		396C8E901CDA7D20004AD32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */; };
+		396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E981CDA87CB004AD32D /* Logos.xcassets */; };
+		396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E9B1CDA8AEB004AD32D /* AKTeamsListViewController.m */; };
+		396C8E9E1CDA8AEB004AD32D /* AKTeamsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E9C1CDA8AEB004AD32D /* AKTeamsListViewController.xib */; };
+		396C8EA81CDA91CB004AD32D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EA71CDA91CB004AD32D /* Constants.m */; };
+		396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */; };
+		396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39021AC21DCA64ED00486657 /* AKTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamViewController.h; sourceTree = "<group>"; };
+		39021AC31DCA64ED00486657 /* AKTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamViewController.m; sourceTree = "<group>"; };
+		39021AC41DCA64ED00486657 /* AKTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamViewController.xib; sourceTree = "<group>"; };
 		396C8E7D1CDA7D20004AD32D /* Hockey Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396C8E811CDA7D20004AD32D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		396C8E831CDA7D20004AD32D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		396C8E841CDA7D20004AD32D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		396C8E861CDA7D20004AD32D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		396C8E871CDA7D20004AD32D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		396C8E8A1CDA7D20004AD32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		396C8E8C1CDA7D20004AD32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396C8E8F1CDA7D20004AD32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396C8E911CDA7D20004AD32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396C8E981CDA87CB004AD32D /* Logos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Logos.xcassets; sourceTree = "<group>"; };
+		396C8E9A1CDA8AEB004AD32D /* AKTeamsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamsListViewController.h; sourceTree = "<group>"; };
+		396C8E9B1CDA8AEB004AD32D /* AKTeamsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamsListViewController.m; sourceTree = "<group>"; };
+		396C8E9C1CDA8AEB004AD32D /* AKTeamsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamsListViewController.xib; sourceTree = "<group>"; };
+		396C8EA61CDA91CB004AD32D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		396C8EA71CDA91CB004AD32D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		396C8EA91CDAAF24004AD32D /* AKTeamsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamsListTableViewCell.h; sourceTree = "<group>"; };
+		396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamsListTableViewCell.m; sourceTree = "<group>"; };
+		396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamsListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +75,12 @@
 			children = (
 				396C8E831CDA7D20004AD32D /* AppDelegate.h */,
 				396C8E841CDA7D20004AD32D /* AppDelegate.m */,
-				396C8E861CDA7D20004AD32D /* ViewController.h */,
-				396C8E871CDA7D20004AD32D /* ViewController.m */,
-				396C8E891CDA7D20004AD32D /* Main.storyboard */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
-				396C8E911CDA7D20004AD32D /* Info.plist */,
+				396C8EB31CDABA96004AD32D /* Single Team View */,
+				396C8EAC1CDAAF30004AD32D /* Teams View */,
+				396C8E9F1CDA8B2A004AD32D /* Utilities */,
+				396C8E971CDA879A004AD32D /* Resources */,
 				396C8E801CDA7D20004AD32D /* Supporting Files */,
 			);
 			path = "Hockey Data";
@@ -74,9 +89,50 @@
 		396C8E801CDA7D20004AD32D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				396C8E911CDA7D20004AD32D /* Info.plist */,
 				396C8E811CDA7D20004AD32D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396C8E971CDA879A004AD32D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				396C8E981CDA87CB004AD32D /* Logos.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		396C8E9F1CDA8B2A004AD32D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				396C8EA61CDA91CB004AD32D /* Constants.h */,
+				396C8EA71CDA91CB004AD32D /* Constants.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		396C8EAC1CDAAF30004AD32D /* Teams View */ = {
+			isa = PBXGroup;
+			children = (
+				396C8E9A1CDA8AEB004AD32D /* AKTeamsListViewController.h */,
+				396C8E9B1CDA8AEB004AD32D /* AKTeamsListViewController.m */,
+				396C8E9C1CDA8AEB004AD32D /* AKTeamsListViewController.xib */,
+				396C8EA91CDAAF24004AD32D /* AKTeamsListTableViewCell.h */,
+				396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */,
+				396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */,
+			);
+			name = "Teams View";
+			sourceTree = "<group>";
+		};
+		396C8EB31CDABA96004AD32D /* Single Team View */ = {
+			isa = PBXGroup;
+			children = (
+				39021AC21DCA64ED00486657 /* AKTeamViewController.h */,
+				39021AC31DCA64ED00486657 /* AKTeamViewController.m */,
+				39021AC41DCA64ED00486657 /* AKTeamViewController.xib */,
+			);
+			name = "Single Team View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +166,7 @@
 				TargetAttributes = {
 					396C8E7C1CDA7D20004AD32D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T36GJ569RT;
 					};
 				};
 			};
@@ -136,9 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */,
 				396C8E901CDA7D20004AD32D /* LaunchScreen.storyboard in Resources */,
 				396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */,
-				396C8E8B1CDA7D20004AD32D /* Main.storyboard in Resources */,
+				396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */,
+				396C8E9E1CDA8AEB004AD32D /* AKTeamsListViewController.xib in Resources */,
+				39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396C8E881CDA7D20004AD32D /* ViewController.m in Sources */,
+				396C8EA81CDA91CB004AD32D /* Constants.m in Sources */,
 				396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */,
 				396C8E821CDA7D20004AD32D /* main.m in Sources */,
+				39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */,
+				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
+				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		396C8E891CDA7D20004AD32D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				396C8E8A1CDA7D20004AD32D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -265,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T36GJ569RT;
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "aking.Hockey-Data";
@@ -276,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T36GJ569RT;
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "aking.Hockey-Data";
@@ -302,6 +359,7 @@
 				396C8E961CDA7D20004AD32D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

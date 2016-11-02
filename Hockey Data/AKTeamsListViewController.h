@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AKTeamsListViewController.h
 //  Hockey Data
 //
 //  Created by Alex King on 5/4/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AKTeamsListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
-

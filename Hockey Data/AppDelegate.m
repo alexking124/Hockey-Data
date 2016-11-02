@@ -6,6 +6,9 @@
 //  Copyright © 2016 Alex King. All rights reserved.
 //
 
+#import "AKTeamsListViewController.h"
+#import "Constants.h"
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UITabBarController *tabBarController = [UITabBarController new];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *teamsNavigation = [[UINavigationController alloc] initWithRootViewController:[AKTeamsListViewController new]];
+    [tabBarController setViewControllers:@[teamsNavigation]];
+    
     return YES;
 }
 

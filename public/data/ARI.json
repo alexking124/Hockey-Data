@@ -1,0 +1,15 @@
+{
+  "team_name": "Arizona Coyotes",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
+  "founded_year": 1972,
+  "stadium": {
+  	"name": "Gila River Arena",
+  	"capacity": 17125,
+  	"address": "9400 West Maryland Ave, Glendale, AZ 85305"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": [],
+  	"conference_champions": []
+  }
+}

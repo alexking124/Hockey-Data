@@ -1,15 +1,16 @@
 {
-  "team_name": "Florida Panthers",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 1993,
+  "team_name": "Colorado Avalanche",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
+  "founded_year": 1972,
   "stadium": {
-  	"name": "Honda Center",
+  	"name": "Pepsi Center",
   	"capacity": 17174,
   	"address": "2695 East Katella Avenue Anaheim, California 92806"
   },
   "playoffs": {
   	"stanley_cup_champions": ["2006-07"],
   	"conference_champions": ["2002–03", "2006–07"]
-  }
+  },
+  "colors": ["#870038", "#B2B7BB", "#015696", "#000000"]
 }

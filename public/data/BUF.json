@@ -1,0 +1,15 @@
+{
+  "team_name": "Buffalo Sabres",
+  "conference": "Eastern Conference",
+  "division": "Atlantic Division",
+  "founded_year": 1970,
+  "stadium": {
+  	"name": "KeyBank Center",
+  	"capacity": 19070,
+  	"address": "1 Seymour H Knox III Plaza, Buffalo, NY 14203"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": [],
+  	"conference_champions": ["1974–75", "1998–99"]
+  }
+}

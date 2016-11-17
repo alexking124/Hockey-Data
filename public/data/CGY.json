@@ -3,6 +3,13 @@
   "conference": "Western Conference",
   "division": "Pacific Division",
   "founded_year": 1972,
-  "stadium_name": "Scotiabank Saddledome",
-  "stadium_capacity": 19289
+  "stadium": {
+  	"name": "Scotiabank Saddledome",
+  	"capacity": 19289,
+  	"address": "555 Saddledome Rise SE, Calgary, AB T2G 2W1, Canada"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": ["1988–89"],
+  	"conference_champions": ["1985–86", "1988–89", "2003–04"]
+  }
 }

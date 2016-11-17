@@ -1,0 +1,15 @@
+{
+  "team_name": "Carolina Hurricanes",
+  "conference": "Eastern Conference",
+  "division": "Metropolitan Division",
+  "founded_year": 1972,
+  "stadium": {
+  	"name": "PNC Arena",
+  	"capacity": 18680,
+  	"address": "1400 Edwards Mill Rd, Raleigh, NC 27607"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": ["2005-06"],
+  	"conference_champions": ["2001–02", "2005–06"]
+  }
+}

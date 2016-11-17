@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AC31DCA64ED00486657 /* AKTeamViewController.m */; };
 		39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39021AC41DCA64ED00486657 /* AKTeamViewController.xib */; };
+		39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AD21DCD000B00486657 /* UIImageView+Remote.m */; };
 		396C8E821CDA7D20004AD32D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E811CDA7D20004AD32D /* main.m */; };
 		396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E841CDA7D20004AD32D /* AppDelegate.m */; };
 		396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8C1CDA7D20004AD32D /* Assets.xcassets */; };
@@ -25,6 +26,8 @@
 		39021AC21DCA64ED00486657 /* AKTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamViewController.h; sourceTree = "<group>"; };
 		39021AC31DCA64ED00486657 /* AKTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamViewController.m; sourceTree = "<group>"; };
 		39021AC41DCA64ED00486657 /* AKTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamViewController.xib; sourceTree = "<group>"; };
+		39021AD11DCD000B00486657 /* UIImageView+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Remote.h"; sourceTree = "<group>"; };
+		39021AD21DCD000B00486657 /* UIImageView+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Remote.m"; sourceTree = "<group>"; };
 		396C8E7D1CDA7D20004AD32D /* Hockey Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396C8E811CDA7D20004AD32D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		396C8E831CDA7D20004AD32D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39021AC71DCCFE0F00486657 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				39021AD11DCD000B00486657 /* UIImageView+Remote.h */,
+				39021AD21DCD000B00486657 /* UIImageView+Remote.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		396C8E741CDA7D20004AD32D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 				396C8EB31CDABA96004AD32D /* Single Team View */,
 				396C8EAC1CDAAF30004AD32D /* Teams View */,
 				396C8E9F1CDA8B2A004AD32D /* Utilities */,
+				39021AC71DCCFE0F00486657 /* Category */,
 				396C8E971CDA879A004AD32D /* Resources */,
 				396C8E801CDA7D20004AD32D /* Supporting Files */,
 			);
@@ -128,11 +141,19 @@
 		396C8EB31CDABA96004AD32D /* Single Team View */ = {
 			isa = PBXGroup;
 			children = (
+				39F5CF351DD8352E00AA5DDB /* Cells */,
 				39021AC21DCA64ED00486657 /* AKTeamViewController.h */,
 				39021AC31DCA64ED00486657 /* AKTeamViewController.m */,
 				39021AC41DCA64ED00486657 /* AKTeamViewController.xib */,
 			);
 			name = "Single Team View";
+			sourceTree = "<group>";
+		};
+		39F5CF351DD8352E00AA5DDB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +236,7 @@
 				39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */,
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
+				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

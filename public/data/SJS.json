@@ -1,0 +1,15 @@
+{
+  "team_name": "San Jose Sharks",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
+  "founded_year": 1991,
+  "stadium": {
+  	"name": "SAP Center",
+  	"capacity": 17562,
+  	"address": "525 West Santa Clara Street San Jose, California 95113"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": [],
+  	"conference_champions": ["2015–016"]
+  }
+}

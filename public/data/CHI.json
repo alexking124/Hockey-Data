@@ -1,0 +1,15 @@
+{
+  "team_name": "Chicago Blackhawks",
+  "conference": "Western Conference",
+  "division": "Central Division",
+  "founded_year": 1926,
+  "stadium": {
+  	"name": "United Center",
+  	"capacity": 19717,
+  	"address": "1901 W Madison St, Chicago, IL 60612"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": ["1933–34", "1937–38", "1960–61", "2009–10", "2012–13", "2014–15"],
+  	"conference_champions": ["1991–92", "2009–10", "2012–13", "2014–15"]
+  }
+}

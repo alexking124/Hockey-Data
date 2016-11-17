@@ -1,0 +1,15 @@
+{
+  "team_name": "Columbus Blue Jackets",
+  "conference": "Eastern Conference",
+  "division": "Metropolitan Division",
+  "founded_year": 2000,
+  "stadium": {
+  	"name": "Nationwide Arena",
+  	"capacity": 18500,
+  	"address": "200 W Nationwide Blvd, Columbus, OH 43215"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": [],
+  	"conference_champions": []
+  }
+}

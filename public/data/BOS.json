@@ -1,0 +1,15 @@
+{
+  "team_name": "Boston Bruins",
+  "conference": "Eastern Conference",
+  "division": "Atlantic Division",
+  "founded_year": 1924,
+  "stadium": {
+  	"name": "TD Garden",
+  	"capacity": 17565,
+  	"address": "100 Legends Way, Boston, Massachusetts, 02114"
+  },
+  "playoffs": {
+  	"stanley_cup_champions": ["1928–29", "1938–39", "1940–41", "1969–70", "1971–72", "2010–11"],
+  	"conference_champions": ["1987–88", "1989–90", "2010–11", "2012–13"]
+  }
+}

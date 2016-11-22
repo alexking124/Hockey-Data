@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="AKRosterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_player_image" translatesAutoresizingMaskIntoConstraints="NO" id="jng-og-B9e">
+                        <rect key="frame" x="15" y="6" width="44" height="58.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="jng-og-B9e" secondAttribute="height" multiplier="3:4" id="hch-ci-z2y"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joe Thornton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3T-Jh-EAY">
+                        <rect key="frame" x="67" y="27.5" width="81.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reA-GZ-hiG">
+                        <rect key="frame" x="150.5" y="24" width="28.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.64466628840732088" green="0.64466628840732088" blue="0.64466628840732088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="reA-GZ-hiG" firstAttribute="leading" secondItem="k3T-Jh-EAY" secondAttribute="trailing" constant="2" id="Fgq-Ae-JCC"/>
+                    <constraint firstItem="jng-og-B9e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="GZU-q8-oVF"/>
+                    <constraint firstItem="reA-GZ-hiG" firstAttribute="baseline" secondItem="k3T-Jh-EAY" secondAttribute="baseline" id="P2u-fo-LJL"/>
+                    <constraint firstItem="jng-og-B9e" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Qcd-dp-s2r"/>
+                    <constraint firstItem="jng-og-B9e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="SVD-Oa-qZc"/>
+                    <constraint firstItem="k3T-Jh-EAY" firstAttribute="leading" secondItem="jng-og-B9e" secondAttribute="trailing" constant="8" id="nGk-fv-4Ch"/>
+                    <constraint firstItem="k3T-Jh-EAY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="p2o-dv-qeP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="playerNameLabel" destination="k3T-Jh-EAY" id="rfY-pw-6E3"/>
+                <outlet property="playerNumberLabel" destination="reA-GZ-hiG" id="PB0-By-vWt"/>
+                <outlet property="playerPhotoImageView" destination="jng-og-B9e" id="5lY-31-0BS"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="67.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_player_image" width="63" height="90"/>
+    </resources>
+</document>

@@ -1,15 +1,16 @@
 {
-  "team_name": "Columbus Blue Jackets",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "team_name": "Dallas Stars",
+  "conference": "Western Conference",
+  "division": "Central Division",
+  "founded_year": 1967,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "American Airlines Center",
+  	"capacity": 19323,
+  	"address": "2500 Victory Ave, Dallas, TX 75219"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
-  }
+  	"stanley_cup_champions": ["1998–99"],
+  	"conference_champions": ["1998–99", "1999–00"]
+  },
+  "colors": ["#016F4A", "#A7A8AC", "#000000", "#FFFFFF"]
 }

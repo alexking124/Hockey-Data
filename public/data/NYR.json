@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "New York Rangers",
   "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "division": "Metropolitan Division",
+  "founded_year": 1926,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Madison Square Garden",
+  	"capacity": 18006,
+  	"address": "4 Pennsylvania Plaza, New York, NY 10001"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1927–28", "1932–33", "1939–40", "1993–94"],
+  	"conference_champions": ["1993–94", "2013–14"]
   }
 }

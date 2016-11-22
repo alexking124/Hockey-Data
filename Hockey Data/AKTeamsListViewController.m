@@ -7,7 +7,7 @@
 //
 
 #import "AKTeamsListTableViewCell.h"
-#import "AKTeamViewController.h"
+#import "AKTeamTableViewController.h"
 #import "Constants.h"
 
 #import "AKTeamsListViewController.h"
@@ -62,7 +62,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *team = [[Constants NHLTeamAbbreviations] objectAtIndex:indexPath.row];
-    AKTeamViewController *teamView = [[AKTeamViewController alloc] initWithTeam:team];
+    AKTeamTableViewController *teamView = [[AKTeamTableViewController alloc] initWithTeam:team];
     [self.navigationController pushViewController:teamView animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

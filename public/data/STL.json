@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "team_name": "St. Louis Blues",
+  "conference": "Western Conference",
+  "division": "Central Division",
+  "founded_year": 1967,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Scottrade Center",
+  	"capacity": 19150,
+  	"address": "1401 Clark Ave, St. Louis, MO 63103"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": [],
+  	"conference_champions": []
   }
 }

@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "Tampa Bay Lightning",
   "conference": "Eastern Conference",
   "division": "Atlantic Division",
-  "founded_year": 2000,
+  "founded_year": 1992,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Amalie Arena",
+  	"capacity": 19092,
+  	"address": "401 Channelside Dr, Tampa, FL 33602"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["2003–04"],
+  	"conference_champions": ["2003–04", "2014–15"]
   }
 }

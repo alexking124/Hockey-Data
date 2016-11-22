@@ -11,5 +11,6 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["2015–016"]
-  }
+  },
+  "colors": ["#007889", "#F4901E", "#000000", "#FFFFFF"]
 }

@@ -20,6 +20,17 @@
 		396C8EA81CDA91CB004AD32D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EA71CDA91CB004AD32D /* Constants.m */; };
 		396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */; };
 		396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */; };
+		39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */; };
+		39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */; };
+		39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */; };
+		39D610291DDE73CA0098BB61 /* AKTeamTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610271DDE73CA0098BB61 /* AKTeamTableViewController.xib */; };
+		39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6102B1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m */; };
+		39D6102E1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D6102C1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib */; };
+		39D610331DDE82260098BB61 /* AKRosterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610311DDE82260098BB61 /* AKRosterTableViewController.m */; };
+		39D610341DDE82260098BB61 /* AKRosterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610321DDE82260098BB61 /* AKRosterTableViewController.xib */; };
+		39D610391DDE82FA0098BB61 /* AKRosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610371DDE82FA0098BB61 /* AKRosterTableViewCell.m */; };
+		39D6103A1DDE82FA0098BB61 /* AKRosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */; };
+		39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +55,23 @@
 		396C8EA91CDAAF24004AD32D /* AKTeamsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamsListTableViewCell.h; sourceTree = "<group>"; };
 		396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamsListTableViewCell.m; sourceTree = "<group>"; };
 		396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamsListTableViewCell.xib; sourceTree = "<group>"; };
+		39D610201DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamGeneralInfoTableViewCell.h; sourceTree = "<group>"; };
+		39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamGeneralInfoTableViewCell.m; sourceTree = "<group>"; };
+		39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamGeneralInfoTableViewCell.xib; sourceTree = "<group>"; };
+		39D610251DDE73CA0098BB61 /* AKTeamTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamTableViewController.h; sourceTree = "<group>"; };
+		39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamTableViewController.m; sourceTree = "<group>"; };
+		39D610271DDE73CA0098BB61 /* AKTeamTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamTableViewController.xib; sourceTree = "<group>"; };
+		39D6102A1DDE7B060098BB61 /* AKTeamVenueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamVenueTableViewCell.h; sourceTree = "<group>"; };
+		39D6102B1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamVenueTableViewCell.m; sourceTree = "<group>"; };
+		39D6102C1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamVenueTableViewCell.xib; sourceTree = "<group>"; };
+		39D610301DDE82260098BB61 /* AKRosterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKRosterTableViewController.h; sourceTree = "<group>"; };
+		39D610311DDE82260098BB61 /* AKRosterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKRosterTableViewController.m; sourceTree = "<group>"; };
+		39D610321DDE82260098BB61 /* AKRosterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKRosterTableViewController.xib; sourceTree = "<group>"; };
+		39D610361DDE82FA0098BB61 /* AKRosterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKRosterTableViewCell.h; sourceTree = "<group>"; };
+		39D610371DDE82FA0098BB61 /* AKRosterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKRosterTableViewCell.m; sourceTree = "<group>"; };
+		39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKRosterTableViewCell.xib; sourceTree = "<group>"; };
+		39D6103B1DDE9E9F0098BB61 /* AKTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamTableViewCell.h; sourceTree = "<group>"; };
+		39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +117,7 @@
 				396C8E841CDA7D20004AD32D /* AppDelegate.m */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
+				39D6102F1DDE82090098BB61 /* Roster View */,
 				396C8EB31CDABA96004AD32D /* Single Team View */,
 				396C8EAC1CDAAF30004AD32D /* Teams View */,
 				396C8E9F1CDA8B2A004AD32D /* Utilities */,
@@ -142,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				39F5CF351DD8352E00AA5DDB /* Cells */,
+				39D610251DDE73CA0098BB61 /* AKTeamTableViewController.h */,
+				39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */,
+				39D610271DDE73CA0098BB61 /* AKTeamTableViewController.xib */,
 				39021AC21DCA64ED00486657 /* AKTeamViewController.h */,
 				39021AC31DCA64ED00486657 /* AKTeamViewController.m */,
 				39021AC41DCA64ED00486657 /* AKTeamViewController.xib */,
@@ -149,9 +181,38 @@
 			name = "Single Team View";
 			sourceTree = "<group>";
 		};
+		39D6102F1DDE82090098BB61 /* Roster View */ = {
+			isa = PBXGroup;
+			children = (
+				39D610351DDE82E10098BB61 /* Cells */,
+				39D610301DDE82260098BB61 /* AKRosterTableViewController.h */,
+				39D610311DDE82260098BB61 /* AKRosterTableViewController.m */,
+				39D610321DDE82260098BB61 /* AKRosterTableViewController.xib */,
+			);
+			name = "Roster View";
+			sourceTree = "<group>";
+		};
+		39D610351DDE82E10098BB61 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				39D610361DDE82FA0098BB61 /* AKRosterTableViewCell.h */,
+				39D610371DDE82FA0098BB61 /* AKRosterTableViewCell.m */,
+				39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		39F5CF351DD8352E00AA5DDB /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				39D6103B1DDE9E9F0098BB61 /* AKTeamTableViewCell.h */,
+				39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */,
+				39D610201DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.h */,
+				39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */,
+				39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */,
+				39D6102A1DDE7B060098BB61 /* AKTeamVenueTableViewCell.h */,
+				39D6102B1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m */,
+				39D6102C1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -214,12 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D610291DDE73CA0098BB61 /* AKTeamTableViewController.xib in Resources */,
+				39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */,
+				39D6102E1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib in Resources */,
 				396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */,
+				39D610341DDE82260098BB61 /* AKRosterTableViewController.xib in Resources */,
 				396C8E901CDA7D20004AD32D /* LaunchScreen.storyboard in Resources */,
 				396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */,
 				396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */,
 				396C8E9E1CDA8AEB004AD32D /* AKTeamsListViewController.xib in Resources */,
 				39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */,
+				39D6103A1DDE82FA0098BB61 /* AKRosterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D610391DDE82FA0098BB61 /* AKRosterTableViewCell.m in Sources */,
 				396C8EA81CDA91CB004AD32D /* Constants.m in Sources */,
+				39D610331DDE82260098BB61 /* AKRosterTableViewController.m in Sources */,
 				396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */,
 				396C8E821CDA7D20004AD32D /* main.m in Sources */,
+				39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */,
 				39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */,
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
+				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
+				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
+				39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */,
 				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

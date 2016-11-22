@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
+  "team_name": "Los Angeles Kings",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
   "founded_year": 2000,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Staples Center",
+  	"capacity": 18230,
+  	"address": "1111 S Figueroa St, Los Angeles, CA 90015"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["2011–12", "2013–14"],
+  	"conference_champions": ["1992–93", "2011–12", "2013–14"]
   }
 }

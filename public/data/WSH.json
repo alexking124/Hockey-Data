@@ -4,12 +4,12 @@
   "division": "Metropolitan Division",
   "founded_year": 1974,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Verizon Center",
+  	"capacity": 18506,
+  	"address": "601 F St NW, Washington, DC 20004"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": [],
+  	"conference_champions": ["1997-98"]
   }
 }

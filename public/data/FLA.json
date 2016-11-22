@@ -4,12 +4,11 @@
   "division": "Atlantic Division",
   "founded_year": 1993,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "BB&T Center",
+  	"address": "1 Panther Pkwy, Sunrise, FL 33323"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": [],
+  	"conference_champions": ["1995–96"]
   }
 }

@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "team_name": "Edmonton Oilers",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
+  "founded_year": 1972,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Rogers Place",
+  	"capacity": 18641,
+  	"address": "10220 104 Ave NW, Edmonton, AB T5J 4Y8, Canada"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1983–84", "1984–85", "1986–87", "1987–88", "1989–90"],
+  	"conference_champions": ["1982–83", "1983–84", "1984–85", "1986–87", "1987–88", "1989–90", "2005–06"]
   }
 }

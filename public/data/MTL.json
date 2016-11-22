@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "Montreal Canadiens",
   "conference": "Eastern Conference",
   "division": "Atlantic Division",
-  "founded_year": 2000,
+  "founded_year": 1909,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Centre Bell",
+  	"capacity": 21288,
+  	"address": "1909 Avenue des Canadiens-de-Montréal, Montréal, QC H4B 5G0, Canada"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1915–16", "1923–24", "1929–30", "1930–31", "1943–44", "1945–46", "1952–53", "1955–56", "1956–57", "1957–58", "1958–59", "1959–60", "1964–65", "1965–66", "1967–68", "1968–69", "1970–71", "1972–73", "1975–76", "1976–77", "1977–78", "1978–79", "1985–86", "1992–93"],
+  	"conference_champions": ["1975–76", "1976–77", "1977–78", "1978–79", "1980–81", "1985–86", "1988–89", "1992–93"]
   }
 }

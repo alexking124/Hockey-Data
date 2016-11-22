@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "Philadelphia Flyers",
   "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "division": "Metropolitan Division",
+  "founded_year": 1967,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Wells Fargo Center",
+  	"capacity": 19543,
+  	"address": "3601 S Broad St, Philadelphia, PA 19148"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1973–74", "1974–75"],
+  	"conference_champions": ["1974–75", "1975–76", "1976–77", "1979–80", "1984–85", "1986–87", "1996–97", "2009–10"]
   }
 }

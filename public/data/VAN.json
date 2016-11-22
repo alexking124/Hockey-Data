@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
-  "conference": "Eastern Conference",
-  "division": "Atlantic Division",
-  "founded_year": 2000,
+  "team_name": "Vancouver Canucks",
+  "conference": "Western Conference",
+  "division": "Pacific Division",
+  "founded_year": 1970,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Rogers Arena",
+  	"capacity": 18910,
+  	"address": "800 Griffiths Way, Vancouver, BC V6B 6G1, Canada"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": [],
+  	"conference_champions": ["1981–82", "1993–94", "2010–11"]
   }
 }

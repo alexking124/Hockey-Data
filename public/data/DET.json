@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "Detroit Red Wings",
   "conference": "Eastern Conference",
   "division": "Atlantic Division",
-  "founded_year": 2000,
+  "founded_year": 1926,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Joe Louis Arena",
+  	"capacity": 20027,
+  	"address": "19 Steve Yzerman Dr, Detroit, MI 48226"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1935–36", "1936–37", "1942–43", "1949–50", "1951–52", "1953–54", "1954–55", "1996–97", "1997–98", "2001–02", "2007–08"],
+  	"conference_champions": ["1994–95", "1996–97", "1997–98", "2001–02", "2007–08", "2008–09"]
   }
 }

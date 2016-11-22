@@ -1,15 +1,15 @@
 {
-  "team_name": "Columbus Blue Jackets",
+  "team_name": "Toronto Maple Leafs",
   "conference": "Eastern Conference",
   "division": "Atlantic Division",
-  "founded_year": 2000,
+  "founded_year": 1917,
   "stadium": {
-  	"name": "Honda Center",
-  	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"name": "Air Canada Centre",
+  	"capacity": 20270,
+  	"address": "40 Bay St, Toronto, ON M5J 2X2, Canada"
   },
   "playoffs": {
-  	"stanley_cup_champions": ["2006-07"],
-  	"conference_champions": ["2002–03", "2006–07"]
+  	"stanley_cup_champions": ["1917–18", "1921–22", "1931–32", "1941–42", "1944–45", "1946–47", "1947–48", "1948–49", "1950–51", "1961–62", "1962–63", "1963–64", "1966–67"],
+  	"conference_champions": []
   }
 }

@@ -22,12 +22,13 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UITabBarController *tabBarController = [UITabBarController new];
-    self.window.rootViewController = tabBarController;
+//    UITabBarController *tabBarController = [UITabBarController new];
+//    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     
     UINavigationController *teamsNavigation = [[UINavigationController alloc] initWithRootViewController:[AKTeamsListViewController new]];
-    [tabBarController setViewControllers:@[teamsNavigation]];
+    self.window.rootViewController = teamsNavigation;
+//    [tabBarController setViewControllers:@[teamsNavigation]];
     
     return YES;
 }

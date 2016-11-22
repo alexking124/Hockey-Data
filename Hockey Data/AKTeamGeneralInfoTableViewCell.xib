@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="KGk-i7-Jjw" customClass="AKTeamGeneralInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYN-N8-4o0" userLabel="Team Overview">
+                        <rect key="frame" x="20" y="8" width="357" height="107.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flames" translatesAutoresizingMaskIntoConstraints="NO" id="OJ8-UO-FBh">
+                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="107.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OJ8-UO-FBh" secondAttribute="height" multiplier="1:1" id="maD-VB-bdy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXh-Pz-qVA">
+                                <rect key="frame" x="127.5" y="14.5" width="229.5" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calgary Flames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KH6-xo-hYl">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Founded 1972" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN9-eq-dFq">
+                                        <rect key="frame" x="0.0" y="21" width="80.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pacific Division" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="dUC-Ox-NyY">
+                                        <rect key="frame" x="0.0" y="43.5" width="115" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Western Conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPh-IA-akK">
+                                        <rect key="frame" x="0.0" y="64.5" width="116" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KH6-xo-hYl" secondAttribute="trailing" id="4ZN-uu-owy"/>
+                                    <constraint firstItem="KH6-xo-hYl" firstAttribute="top" secondItem="tXh-Pz-qVA" secondAttribute="top" id="7ex-9K-x0H"/>
+                                    <constraint firstItem="HPh-IA-akK" firstAttribute="top" secondItem="dUC-Ox-NyY" secondAttribute="bottom" id="DxA-Tx-Auy"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vN9-eq-dFq" secondAttribute="trailing" id="G1Q-hT-FoV"/>
+                                    <constraint firstItem="dUC-Ox-NyY" firstAttribute="leading" secondItem="tXh-Pz-qVA" secondAttribute="leading" id="OW1-eK-b9b"/>
+                                    <constraint firstItem="vN9-eq-dFq" firstAttribute="leading" secondItem="tXh-Pz-qVA" secondAttribute="leading" id="Rwj-4Y-yds"/>
+                                    <constraint firstItem="dUC-Ox-NyY" firstAttribute="top" secondItem="vN9-eq-dFq" secondAttribute="bottom" constant="8" symbolic="YES" id="TfF-ge-bma"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dUC-Ox-NyY" secondAttribute="trailing" id="WM0-iE-E7s"/>
+                                    <constraint firstItem="vN9-eq-dFq" firstAttribute="top" secondItem="KH6-xo-hYl" secondAttribute="bottom" id="e65-zQ-epX"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HPh-IA-akK" secondAttribute="trailing" id="k1X-xJ-YRZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="HPh-IA-akK" secondAttribute="bottom" id="ngB-Bu-MXZ"/>
+                                    <constraint firstItem="HPh-IA-akK" firstAttribute="leading" secondItem="tXh-Pz-qVA" secondAttribute="leading" id="pfy-Mt-VyK"/>
+                                    <constraint firstItem="KH6-xo-hYl" firstAttribute="leading" secondItem="tXh-Pz-qVA" secondAttribute="leading" id="zOq-xk-cFQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OJ8-UO-FBh" firstAttribute="top" secondItem="aYN-N8-4o0" secondAttribute="top" id="56A-m3-7mO"/>
+                            <constraint firstItem="tXh-Pz-qVA" firstAttribute="leading" secondItem="OJ8-UO-FBh" secondAttribute="trailing" constant="20" id="GoE-CH-W9g"/>
+                            <constraint firstItem="OJ8-UO-FBh" firstAttribute="leading" secondItem="aYN-N8-4o0" secondAttribute="leading" id="KFS-c4-wmi"/>
+                            <constraint firstAttribute="bottom" secondItem="OJ8-UO-FBh" secondAttribute="bottom" id="UdZ-CH-82S"/>
+                            <constraint firstAttribute="trailing" secondItem="tXh-Pz-qVA" secondAttribute="trailing" id="YlM-qG-bJP"/>
+                            <constraint firstItem="tXh-Pz-qVA" firstAttribute="centerY" secondItem="aYN-N8-4o0" secondAttribute="centerY" id="vCZ-fd-7jh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="aYN-N8-4o0" secondAttribute="bottom" id="Dqb-Ak-3Wu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aYN-N8-4o0" secondAttribute="trailing" constant="12" id="RZu-1l-ENI"/>
+                    <constraint firstItem="aYN-N8-4o0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="qBl-zj-gJi"/>
+                    <constraint firstItem="aYN-N8-4o0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="tjJ-tw-lgV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="conferenceLabel" destination="HPh-IA-akK" id="MoQ-Ec-pJH"/>
+                <outlet property="divisionLabel" destination="dUC-Ox-NyY" id="2WD-qb-HjN"/>
+                <outlet property="foundedLabel" destination="vN9-eq-dFq" id="gpJ-G7-7Ko"/>
+                <outlet property="teamLogoImageView" destination="OJ8-UO-FBh" id="Qnn-q0-lbH"/>
+                <outlet property="teamNameLabel" destination="KH6-xo-hYl" id="B2Y-ym-Yaj"/>
+            </connections>
+            <point key="canvasLocation" x="72.5" y="94"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="flames" width="584" height="500"/>
+    </resources>
+</document>

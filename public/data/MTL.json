@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1915–16", "1923–24", "1929–30", "1930–31", "1943–44", "1945–46", "1952–53", "1955–56", "1956–57", "1957–58", "1958–59", "1959–60", "1964–65", "1965–66", "1967–68", "1968–69", "1970–71", "1972–73", "1975–76", "1976–77", "1977–78", "1978–79", "1985–86", "1992–93"],
   	"conference_champions": ["1975–76", "1976–77", "1977–78", "1978–79", "1980–81", "1985–86", "1988–89", "1992–93"]
+  },
+  "colors": ["#C51230", "#FFFFFF", "#083A81"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/habs/",
+  	"capfriendly": "https://www.capfriendly.com/teams/canadiens",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Montreal.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Montreal_Canadiens"
   }
 }

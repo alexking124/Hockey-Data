@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["2003–04"],
   	"conference_champions": ["2003–04", "2014–15"]
+  },
+  "colors": ["#003D7C", "#FFFFFF", "#000000"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/tampabaylightning/",
+  	"capfriendly": "https://www.capfriendly.com/teams/lightning",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/TampaBay.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning"
   }
 }

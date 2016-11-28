@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1935–36", "1936–37", "1942–43", "1949–50", "1951–52", "1953–54", "1954–55", "1996–97", "1997–98", "2001–02", "2007–08"],
   	"conference_champions": ["1994–95", "1996–97", "1997–98", "2001–02", "2007–08", "2008–09"]
+  },
+  "colors": ["#E51837", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/detroitredwings/",
+  	"capfriendly": "https://www.capfriendly.com/teams/redwings",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Detroit.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Detroit_Red_Wings"
   }
 }

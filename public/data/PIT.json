@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1990–91", "1991–92", "2008–09", "2015–16"],
   	"conference_champions": ["1990–91", "1991–92", "2007–08", "2008–09", "2015–16"]
+  },
+  "colors": ["#000000", "#FFCC33", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/penguins/",
+  	"capfriendly": "https://www.capfriendly.com/teams/penguins",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Pittsburgh.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
   }
 }

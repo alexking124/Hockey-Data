@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["2011–12", "2013–14"],
   	"conference_champions": ["1992–93", "2011–12", "2013–14"]
+  },
+  "colors": ["#B2B7BB", "#000000", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/losangeleskings/",
+  	"capfriendly": "https://www.capfriendly.com/teams/kings",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Pacific/LosAngeles.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Los_Angeles_Kings"
   }
 }

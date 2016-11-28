@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1983–84", "1984–85", "1986–87", "1987–88", "1989–90"],
   	"conference_champions": ["1982–83", "1983–84", "1984–85", "1986–87", "1987–88", "1989–90", "2005–06"]
+  },
+  "colors": ["#013E7F", "#EB6E1E", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/edmontonoilers/",
+  	"capfriendly": "https://www.capfriendly.com/teams/oilers",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Pacific/Edmonton.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Edmonton_Oilers"
   }
 }

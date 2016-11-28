@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1917–18", "1921–22", "1931–32", "1941–42", "1944–45", "1946–47", "1947–48", "1948–49", "1950–51", "1961–62", "1962–63", "1963–64", "1966–67"],
   	"conference_champions": []
+  },
+  "colors": ["#073875", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/leafs/",
+  	"capfriendly": "https://www.capfriendly.com/teams/mapleleafs",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Toronto.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs"
   }
 }

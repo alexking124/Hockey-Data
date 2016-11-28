@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1994–95", "1999–00", "2002–03"],
   	"conference_champions": ["1994–95", "1999–00", "2000–01", "2002–03", "2011–12"]
+  },
+  "colors": ["#E51837", "#000000", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/devils/",
+  	"capfriendly": "https://www.capfriendly.com/teams/devils",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/NewJersey.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/New_Jersey_Devils"
   }
 }

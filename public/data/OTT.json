@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["2006–07"]
+  },
+  "colors": ["#E51837", "#000000", "#D4A00F", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/ottawasenators/",
+  	"capfriendly": "https://www.capfriendly.com/teams/senators",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Ottawa.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Ottawa_Senators"
   }
 }

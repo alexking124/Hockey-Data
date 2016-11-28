@@ -30,6 +30,8 @@
     self.window.rootViewController = teamsNavigation;
 //    [tabBarController setViewControllers:@[teamsNavigation]];
     
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
+    
     return YES;
 }
 

@@ -7,21 +7,29 @@
 //
 
 #import "AKRosterTableViewController.h"
+#import "AKTeamColorsTableViewCell.h"
+#import "AKTeamCupsTableViewCell.h"
 #import "AKTeamGeneralInfoTableViewCell.h"
 #import "AKTeamVenueTableViewCell.h"
 
 #import "AKTeamTableViewController.h"
 
-typedef NS_ENUM(NSInteger, AKTeamCell) {
-    AKTeamCellGeneralInfo = 0,
-    AKTeamCellVenue,
-    AKTeamCellRoster,
-    AKTeamCellReddit,
-    AKTeamCellCapfriendly,
-    AKTeamCellSportsClubStats
+typedef NS_ENUM(NSInteger, AKTeamLinksCell) {
+    AKTeamLinksCellReddit,
+    AKTeamLinksCellCapfriendly,
+    AKTeamLinksCellSportsClubStats
 };
 
-NSUInteger AKTeamCellCount() {
+typedef NS_ENUM(NSInteger, AKTeamSection) {
+    AKTeamSectionGeneral = 0,
+    AKTeamSectionVenue,
+    AKTeamSectionCups,
+    AKTeamSectionColors,
+    AKTeamSectionRoster,
+    AKTeamSectionLinks
+};
+
+NSUInteger AKTeamSectionCount() {
     return 6;
 }
 
@@ -47,9 +55,14 @@ NSUInteger AKTeamCellCount() {
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 44.0;
+    
     [self.tableView registerNib:[UINib nibWithNibName:@"AKTeamGeneralInfoTableViewCell" bundle:nil] forCellReuseIdentifier:@"GeneralCell"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"GenericCell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"AKTeamVenueTableViewCell" bundle:nil] forCellReuseIdentifier:@"VenueCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"AKTeamCupsTableViewCell" bundle:nil] forCellReuseIdentifier:@"CupsCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"AKTeamColorsTableViewCell" bundle:nil] forCellReuseIdentifier:@"ColorsCell"];
     
     [self fetchTeamInfo];
 }
@@ -74,26 +87,29 @@ NSUInteger AKTeamCellCount() {
     if (!self.teamInfoDictionary) {
         return 0;
     }
-    return 1;
+    return AKTeamSectionCount();
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return AKTeamCellCount();
+    if (section == AKTeamSectionLinks) {
+        return 3;
+    }
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell;
     
-    switch (indexPath.row) {
-        case AKTeamCellGeneralInfo: {
+    switch (indexPath.section) {
+        case AKTeamSectionGeneral: {
             cell = [tableView dequeueReusableCellWithIdentifier:@"GeneralCell" forIndexPath:indexPath];
             if (!cell) {
                 cell = [[AKTeamGeneralInfoTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GeneralCell"];
             }
             break;
         }
-        case AKTeamCellRoster: {
+        case AKTeamSectionRoster: {
             cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
             if (!cell) {
                 cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
@@ -102,39 +118,57 @@ NSUInteger AKTeamCellCount() {
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
         }
-        case AKTeamCellVenue: {
+        case AKTeamSectionVenue: {
             cell = [tableView dequeueReusableCellWithIdentifier:@"VenueCell" forIndexPath:indexPath];
             if (!cell) {
                 cell = [[AKTeamVenueTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"VenueCell"];
             }
             break;
         }
-        case AKTeamCellReddit: {
-            cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+        case AKTeamSectionCups: {
+            cell = [tableView dequeueReusableCellWithIdentifier:@"CupsCell" forIndexPath:indexPath];
             if (!cell) {
-                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+                cell = [[AKTeamCupsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CupsCell"];
             }
-            cell.textLabel.text = @"Team Subreddit";
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
         }
-        case AKTeamCellCapfriendly: {
-            cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+        case AKTeamSectionColors: {
+            cell = [tableView dequeueReusableCellWithIdentifier:@"ColorsCell" forIndexPath:indexPath];
             if (!cell) {
-                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+                cell = [[AKTeamColorsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ColorsCell"];
             }
-            cell.textLabel.text = @"CapFriendly Salary Cap Info";
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
         }
-        case AKTeamCellSportsClubStats: {
-            cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
-            if (!cell) {
-                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+        case AKTeamSectionLinks: {
+            switch (indexPath.row) {
+                case AKTeamLinksCellReddit: {
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+                    if (!cell) {
+                        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+                    }
+                    cell.textLabel.text = @"Team Subreddit";
+                    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+                    break;
+                }
+                case AKTeamLinksCellCapfriendly: {
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+                    if (!cell) {
+                        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+                    }
+                    cell.textLabel.text = @"CapFriendly Salary Cap Info";
+                    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+                    break;
+                }
+                case AKTeamLinksCellSportsClubStats: {
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+                    if (!cell) {
+                        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+                    }
+                    cell.textLabel.text = @"SportsClubStats Playoff Chances";
+                    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+                    break;
+                }
             }
-            cell.textLabel.text = @"SportsClubStats Playoff Chances";
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            break;
         }
     }
     
@@ -148,21 +182,43 @@ NSUInteger AKTeamCellCount() {
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case AKTeamCellGeneralInfo:
-            return 120;
-        case AKTeamCellRoster:
-            return 44;
-        case AKTeamCellVenue:
-            return 165;
-            
-        default:
-            return 44;
-            break;
-    }
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+//    switch (indexPath.row) {
+//        case AKTeamCellGeneralInfo:
+//            return 120;
+//        case AKTeamCellVenue:
+//            return 165;
+//            
+//        default:
+//            return 44;
+//            break;
+//    }
+    return 44;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    if (section == 0) return 0;
+    return 30;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    switch (section) {
+        case AKTeamSectionGeneral:
+            return @"";
+        case AKTeamSectionVenue:
+            return @"Venue";
+        case AKTeamSectionCups:
+            return @"Playoffs";
+        case AKTeamSectionColors:
+            return @"Colors";
+        case AKTeamSectionRoster:
+            return @"Roster";
+        case AKTeamSectionLinks:
+            return @"Links";
+        default:
+            return 0;
+    }
+}
 
 #pragma mark - Table view delegate
 
@@ -170,11 +226,43 @@ NSUInteger AKTeamCellCount() {
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.row == AKTeamCellRoster) {
+    if (indexPath.section == AKTeamSectionLinks) {
+        switch (indexPath.row) {
+            case AKTeamLinksCellReddit: {
+                [self openLinkURL:@"subreddit"];
+                break;
+            }
+            case AKTeamLinksCellCapfriendly: {
+                [self openLinkURL:@"capfriendly"];
+                break;
+            }
+            case AKTeamLinksCellSportsClubStats: {
+                [self openLinkURL:@"sportsclubstats"];
+                break;
+            }
+            default:
+                break;
+        }
+    }
+    if (indexPath.section == AKTeamSectionRoster) {
         AKRosterTableViewController *rosterController = [[AKRosterTableViewController alloc] initWithTeam:self.teamAbbreviation];
         [self.navigationController pushViewController:rosterController animated:YES];
+
     }
 }
 
+- (void)openLinkURL:(NSString *)linkType {
+    NSDictionary *linksDictionary = self.teamInfoDictionary[@"links"];
+    if (!linksDictionary) return;
+    NSString *redditLinkString = linksDictionary[linkType];
+    if (!redditLinkString) return;
+    NSURL *redditURL = [NSURL URLWithString:redditLinkString];
+    [[UIApplication sharedApplication] openURL:redditURL];
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    UITableViewHeaderFooterView *headerView = (UITableViewHeaderFooterView *)view;
+    headerView.textLabel.font = [UIFont boldSystemFontOfSize:14];
+}
 
 @end

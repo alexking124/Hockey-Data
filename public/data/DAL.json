@@ -12,5 +12,11 @@
   	"stanley_cup_champions": ["1998–99"],
   	"conference_champions": ["1998–99", "1999–00"]
   },
-  "colors": ["#016F4A", "#A7A8AC", "#000000", "#FFFFFF"]
+  "colors": ["#016F4A", "#A7A8AC", "#000000", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/dallasstars/",
+  	"capfriendly": "https://www.capfriendly.com/teams/stars",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/Dallas.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Dallas_Stars"
+  }
 }

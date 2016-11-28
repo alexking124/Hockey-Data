@@ -10,5 +10,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1979–80", "1980–81", "1981–82", "1982–83"],
   	"conference_champions": ["1979–80", "1980–81", "1981–82", "1982–83", "1983–84"]
+  },
+  "colors": ["#00529B", "#F57D31", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/newyorkislanders/",
+  	"capfriendly": "https://www.capfriendly.com/teams/islanders",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/NYIslanders.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/New_York_Islanders"
   }
 }

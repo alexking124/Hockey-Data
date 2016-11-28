@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1973–74", "1974–75"],
   	"conference_champions": ["1974–75", "1975–76", "1976–77", "1979–80", "1984–85", "1986–87", "1996–97", "2009–10"]
+  },
+  "colors": ["#F4793E", "#000000", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/flyers/",
+  	"capfriendly": "https://www.capfriendly.com/teams/flyers",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Philadelphia.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Philadelphia_Flyers"
   }
 }

@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["1981–82", "1993–94", "2010–11"]
+  },
+  "colors": ["#003E7E", "#008752", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/canucks/",
+  	"capfriendly": "https://www.capfriendly.com/teams/canucks",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Pacific/Vancouver.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Vancouver_Canucks"
   }
 }

@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["1974–75", "1998–99"]
+  },
+  "colors": ["#002654", "#FCB514", "#ADAFAA", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/sabres/",
+  	"capfriendly": "https://www.capfriendly.com/teams/sabres",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Buffalo.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Buffalo_Sabres"
   }
 }

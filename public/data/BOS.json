@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1928–29", "1938–39", "1940–41", "1969–70", "1971–72", "2010–11"],
   	"conference_champions": ["1987–88", "1989–90", "2010–11", "2012–13"]
+  },
+  "colors": ["#000000", "#FDB930", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/bostonbruins/",
+  	"capfriendly": "https://www.capfriendly.com/teams/bruins",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Boston.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Boston_Bruins"
   }
 }

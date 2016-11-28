@@ -10,5 +10,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["1995–96"]
+  },
+  "colors": ["#C8102E", "#041E42", "#B9975B", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/floridapanthers/",
+  	"capfriendly": "https://www.capfriendly.com/teams/panthers",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Atlantic/Florida.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Florida_Panthers"
   }
 }

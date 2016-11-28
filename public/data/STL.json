@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": []
+  },
+  "colors": ["#00529C", "#FDB930", "#002D62", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/stlouisblues/",
+  	"capfriendly": "https://www.capfriendly.com/teams/blues",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/StLouis.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/St_Louis_Blues"
   }
 }

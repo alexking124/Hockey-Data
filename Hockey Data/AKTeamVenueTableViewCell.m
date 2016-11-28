@@ -39,8 +39,12 @@
     NSDictionary *stadiumDictionary = teamInfo[@"stadium"];
     if (stadiumDictionary) {
         self.venueNameLabel.text = stadiumDictionary[@"name"];
-        self.seatingCapacityLabel.text = [NSString stringWithFormat:@"Seating Capacity: %@", stadiumDictionary[@"capacity"]];
         self.venueAddress = stadiumDictionary[@"address"];
+        
+        NSNumberFormatter *formatter = [NSNumberFormatter new];
+        formatter.numberStyle = NSNumberFormatterDecimalStyle;
+        NSString *capacityString = [formatter stringFromNumber:stadiumDictionary[@"capacity"]];
+        self.seatingCapacityLabel.text = [NSString stringWithFormat:@"Seating Capacity: %@", capacityString];
     }
     
     [self.venueLogo downloadImageFromURL:[NSString stringWithFormat:@"https://hockey-data.firebaseapp.com/arena_logos/%@.png", self.teamAbbreviation]];

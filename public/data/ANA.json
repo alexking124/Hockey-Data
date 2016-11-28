@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["2006-07"],
   	"conference_champions": ["2002–03", "2006–07"]
+  },
+  "colors": ["#000000", "#B6985A", "#F57D31", "#B3B6BB", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/anaheimducks/",
+  	"capfriendly": "https://www.capfriendly.com/teams/ducks",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Pacific/Anaheim.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Anaheim_Ducks"
   }
 }

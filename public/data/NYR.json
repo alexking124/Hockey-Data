@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1927–28", "1932–33", "1939–40", "1993–94"],
   	"conference_champions": ["1993–94", "2013–14"]
+  },
+  "colors": ["#005DAB", "#E51837", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/rangers/",
+  	"capfriendly": "https://www.capfriendly.com/teams/rangers",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/NYRangers.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/New_York_Rangers"
   }
 }

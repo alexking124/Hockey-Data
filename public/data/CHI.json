@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["1933–34", "1937–38", "1960–61", "2009–10", "2012–13", "2014–15"],
   	"conference_champions": ["1991–92", "2009–10", "2012–13", "2014–15"]
+  },
+  "colors": ["#E51837", "#000000", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/hawks/",
+  	"capfriendly": "https://www.capfriendly.com/teams/blackhawks",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/Chicago.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Chicago_Blackhawks"
   }
 }

@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": []
+  },
+  "colors": ["#C51230", "#004F30", "#F1B310", "EEE3C7", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/wildhockey/",
+  	"capfriendly": "https://www.capfriendly.com/teams/wild",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/Minnesota.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Minnesota_Wild"
   }
 }

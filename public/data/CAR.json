@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": ["2005-06"],
   	"conference_champions": ["2001–02", "2005–06"]
+  },
+  "colors": ["#C2001C", "#FFFFFF", "#B1B6BA", "#333333"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/canes/",
+  	"capfriendly": "https://www.capfriendly.com/teams/hurricanes",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Carolina.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Carolina_Hurricanes"
   }
 }

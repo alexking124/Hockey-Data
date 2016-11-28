@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": ["1997-98"]
+  },
+  "colors": ["#E51837", "#002E62", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/caps/",
+  	"capfriendly": "https://www.capfriendly.com/teams/capitals",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Washington.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Washington_Capitals"
   }
 }

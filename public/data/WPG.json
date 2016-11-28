@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": []
+  },
+  "colors": ["#041E42", "#0060A5", "#ADAFAA", "A81E2D", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/winnipegjets/",
+  	"capfriendly": "https://www.capfriendly.com/teams/jets",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/Winnipeg.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Winnipeg_Jets"
   }
 }

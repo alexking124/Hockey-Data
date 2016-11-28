@@ -6,11 +6,17 @@
   "stadium": {
   	"name": "Pepsi Center",
   	"capacity": 17174,
-  	"address": "2695 East Katella Avenue Anaheim, California 92806"
+  	"address": "1000 Chopper Cir, Denver, CO 80204"
   },
   "playoffs": {
   	"stanley_cup_champions": ["2006-07"],
   	"conference_champions": ["2002–03", "2006–07"]
   },
-  "colors": ["#870038", "#B2B7BB", "#015696", "#000000"]
+  "colors": ["#870038", "#B2B7BB", "#015696", "#000000"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/coloradoavalanche/",
+  	"capfriendly": "https://www.capfriendly.com/teams/avalanche",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Western/Central/Colorado.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Colorado_Avalanche"
+  }
 }

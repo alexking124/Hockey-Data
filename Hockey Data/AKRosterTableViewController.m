@@ -84,6 +84,9 @@ NSUInteger RosterTypeCount() {
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    if (!self.goalies.count && !self.defensemen.count && !self.forwards.count) {
+        return 0;
+    }
     return RosterTypeCount();
 }
 

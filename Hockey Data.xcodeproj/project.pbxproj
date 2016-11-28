@@ -20,6 +20,11 @@
 		396C8EA81CDA91CB004AD32D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EA71CDA91CB004AD32D /* Constants.m */; };
 		396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */; };
 		396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */; };
+		39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */; };
+		39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */; };
+		39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */; };
+		39BC835C1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC835A1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib */; };
+		39BC835F1DE52BB800A106A2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */; };
 		39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */; };
 		39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */; };
 		39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */; };
@@ -55,6 +60,14 @@
 		396C8EA91CDAAF24004AD32D /* AKTeamsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamsListTableViewCell.h; sourceTree = "<group>"; };
 		396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamsListTableViewCell.m; sourceTree = "<group>"; };
 		396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamsListTableViewCell.xib; sourceTree = "<group>"; };
+		39BC83531DE51EDA00A106A2 /* AKTeamCupsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamCupsTableViewCell.h; sourceTree = "<group>"; };
+		39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamCupsTableViewCell.m; sourceTree = "<group>"; };
+		39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamCupsTableViewCell.xib; sourceTree = "<group>"; };
+		39BC83581DE51F0600A106A2 /* AKTeamColorsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamColorsTableViewCell.h; sourceTree = "<group>"; };
+		39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamColorsTableViewCell.m; sourceTree = "<group>"; };
+		39BC835A1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamColorsTableViewCell.xib; sourceTree = "<group>"; };
+		39BC835D1DE52BB800A106A2 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		39D610201DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamGeneralInfoTableViewCell.h; sourceTree = "<group>"; };
 		39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamGeneralInfoTableViewCell.m; sourceTree = "<group>"; };
 		39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamGeneralInfoTableViewCell.xib; sourceTree = "<group>"; };
@@ -90,6 +103,8 @@
 			children = (
 				39021AD11DCD000B00486657 /* UIImageView+Remote.h */,
 				39021AD21DCD000B00486657 /* UIImageView+Remote.m */,
+				39BC835D1DE52BB800A106A2 /* UIColor+Hex.h */,
+				39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -213,6 +228,12 @@
 				39D6102A1DDE7B060098BB61 /* AKTeamVenueTableViewCell.h */,
 				39D6102B1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m */,
 				39D6102C1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib */,
+				39BC83531DE51EDA00A106A2 /* AKTeamCupsTableViewCell.h */,
+				39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */,
+				39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */,
+				39BC83581DE51F0600A106A2 /* AKTeamColorsTableViewCell.h */,
+				39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */,
+				39BC835A1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -243,7 +264,7 @@
 		396C8E751CDA7D20004AD32D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Alex King";
 				TargetAttributes = {
 					396C8E7C1CDA7D20004AD32D = {
@@ -276,10 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				39D610291DDE73CA0098BB61 /* AKTeamTableViewController.xib in Resources */,
+				39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */,
 				39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */,
 				39D6102E1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib in Resources */,
 				396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */,
 				39D610341DDE82260098BB61 /* AKRosterTableViewController.xib in Resources */,
+				39BC835C1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib in Resources */,
 				396C8E901CDA7D20004AD32D /* LaunchScreen.storyboard in Resources */,
 				396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */,
 				396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */,
@@ -298,8 +321,10 @@
 			files = (
 				39D610391DDE82FA0098BB61 /* AKRosterTableViewCell.m in Sources */,
 				396C8EA81CDA91CB004AD32D /* Constants.m in Sources */,
+				39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */,
 				39D610331DDE82260098BB61 /* AKRosterTableViewController.m in Sources */,
 				396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */,
+				39BC835F1DE52BB800A106A2 /* UIColor+Hex.m in Sources */,
 				396C8E821CDA7D20004AD32D /* main.m in Sources */,
 				39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */,
 				39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */,
@@ -309,6 +334,7 @@
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
 				39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */,
 				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,
+				39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +366,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -385,8 +413,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -417,7 +447,7 @@
 				DEVELOPMENT_TEAM = T36GJ569RT;
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "aking.Hockey-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aking.Hockey-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,7 +459,7 @@
 				DEVELOPMENT_TEAM = T36GJ569RT;
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "aking.Hockey-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aking.Hockey-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

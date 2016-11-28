@@ -11,5 +11,12 @@
   "playoffs": {
   	"stanley_cup_champions": [],
   	"conference_champions": []
+  },
+  "colors": ["#002147", "#C60C30", "#A5ACAF", "#FFFFFF"],
+  "links": {
+  	"subreddit": "https://www.reddit.com/r/bluejackets/",
+  	"capfriendly": "https://www.capfriendly.com/teams/bluejackets",
+  	"sportsclubstats": "http://www.sportsclubstats.com/NHL/Eastern/Metropolitan/Columbus.html",
+  	"wikipedia": "https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"
   }
 }

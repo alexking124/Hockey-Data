@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="/Users/alexking/Desktop/hockey_data_icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0544444"
+     inkscape:cx="424.36281"
+     inkscape:cy="582.41261"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-28.362161)"
+     style="display:inline">
+    <circle
+       style="opacity:1;fill:#6495d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.14411426px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3336"
+       cx="512"
+       cy="540.36218"
+       r="450" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Stick"
+     style="display:inline;opacity:1">
+    <path
+       style="display:inline;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 327.95397,481.56877 c 0,0 272.02936,1.75323 347.20008,-2.15775 41.40276,-2.15409 68.86886,-50.92141 87.38257,-81.99394 18.64161,-31.28717 72.05043,-199.11852 72.05043,-199.11852 19.54605,20.18672 46.47675,51.53958 70.66691,94.82552 0,0 -26.89648,207.35216 -73.01119,262.88657 -16.6852,20.09344 -39.53391,50.79256 -69.74521,66.55097 -30.2113,15.75838 -67.7852,16.57605 -67.7852,16.57605 l -372.5839,1.02466 c 0,0 -82.35835,-1.00044 -82.72217,-83.07282 -0.35393,-79.84324 88.54768,-75.52074 88.54768,-75.52074 z"
+       id="path4162"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccssccsc"
+       clip-path="none"
+       stick="" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="Tape"
+       style="display:inline">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4174"
+         d="m 356.07574,486.61124 293.63223,-1.78572 3.51541,149.14889 -299.37189,0.95414 z"
+         style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Puck"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;opacity:1;fill:#373748;fill-opacity:1;stroke:none;stroke-opacity:1"
+       d="m 214,643.14258 0,75.71484 0.004,0 a 140,29.285715 0 0 0 -0.004,0.0137 140,29.285715 0 0 0 140,29.28516 140,29.285715 0 0 0 140,-29.28516 140,29.285715 0 0 0 -0.002,-0.0137 l 0.002,0 0,-75.71484 -280,0 z"
+       id="path4138-3"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#53536c;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="path4138"
+       cx="354"
+       cy="642.42859"
+       rx="140"
+       ry="29.285715" />
+  </g>
+</svg>

@@ -13,5 +13,6 @@
 + (NSArray *)NHLTeamAbbreviations;
 + (NSDictionary *)NHLImageLookupDictionary;
 + (NSDictionary *)NHLTeamNameLookupDictionary;
++ (NSString *)NHLTeamID:(NSString *)teamAbbreviation;
 
 @end

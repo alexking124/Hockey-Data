@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F14320FE61BF2E89AA9C1DD /* libPods-Hockey Data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DA285EC43E6EAB8C5885A6 /* libPods-Hockey Data.a */; };
 		39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AC31DCA64ED00486657 /* AKTeamViewController.m */; };
 		39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39021AC41DCA64ED00486657 /* AKTeamViewController.xib */; };
 		39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AD21DCD000B00486657 /* UIImageView+Remote.m */; };
@@ -25,6 +26,8 @@
 		39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */; };
 		39BC835C1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC835A1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib */; };
 		39BC835F1DE52BB800A106A2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */; };
+		39C14EB41E36BF04009CE1A0 /* HDTeamSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EB31E36BF04009CE1A0 /* HDTeamSeason.m */; };
+		39C14EB71E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */; };
 		39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */; };
 		39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */; };
 		39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */; };
@@ -39,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20C0473606AC4CFFAEC4A5FE /* Pods-Hockey Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey Data.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data.debug.xcconfig"; sourceTree = "<group>"; };
 		39021AC21DCA64ED00486657 /* AKTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamViewController.h; sourceTree = "<group>"; };
 		39021AC31DCA64ED00486657 /* AKTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamViewController.m; sourceTree = "<group>"; };
 		39021AC41DCA64ED00486657 /* AKTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamViewController.xib; sourceTree = "<group>"; };
@@ -68,6 +72,10 @@
 		39BC835A1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamColorsTableViewCell.xib; sourceTree = "<group>"; };
 		39BC835D1DE52BB800A106A2 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		39C14EB21E36BF04009CE1A0 /* HDTeamSeason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTeamSeason.h; sourceTree = "<group>"; };
+		39C14EB31E36BF04009CE1A0 /* HDTeamSeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTeamSeason.m; sourceTree = "<group>"; };
+		39C14EB51E36CBC3009CE1A0 /* HDTeamSeasonFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTeamSeasonFetcher.h; sourceTree = "<group>"; };
+		39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTeamSeasonFetcher.m; sourceTree = "<group>"; };
 		39D610201DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamGeneralInfoTableViewCell.h; sourceTree = "<group>"; };
 		39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamGeneralInfoTableViewCell.m; sourceTree = "<group>"; };
 		39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamGeneralInfoTableViewCell.xib; sourceTree = "<group>"; };
@@ -85,6 +93,8 @@
 		39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKRosterTableViewCell.xib; sourceTree = "<group>"; };
 		39D6103B1DDE9E9F0098BB61 /* AKTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamTableViewCell.h; sourceTree = "<group>"; };
 		39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamTableViewCell.m; sourceTree = "<group>"; };
+		B1DA285EC43E6EAB8C5885A6 /* libPods-Hockey Data.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hockey Data.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5789936F49AC3B7941430EE /* Pods-Hockey Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey Data.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F14320FE61BF2E89AA9C1DD /* libPods-Hockey Data.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +125,8 @@
 			children = (
 				396C8E7F1CDA7D20004AD32D /* Hockey Data */,
 				396C8E7E1CDA7D20004AD32D /* Products */,
+				9483D99B897EC2307191C6AA /* Pods */,
+				F756B8F3EC68C30C482613D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +145,7 @@
 				396C8E841CDA7D20004AD32D /* AppDelegate.m */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
+				399B64EF1E36BD4300E6BC2F /* Realm */,
 				39D6102F1DDE82090098BB61 /* Roster View */,
 				396C8EB31CDABA96004AD32D /* Single Team View */,
 				396C8EAC1CDAAF30004AD32D /* Teams View */,
@@ -196,6 +210,17 @@
 			name = "Single Team View";
 			sourceTree = "<group>";
 		};
+		399B64EF1E36BD4300E6BC2F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				39C14EB21E36BF04009CE1A0 /* HDTeamSeason.h */,
+				39C14EB31E36BF04009CE1A0 /* HDTeamSeason.m */,
+				39C14EB51E36CBC3009CE1A0 /* HDTeamSeasonFetcher.h */,
+				39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
 		39D6102F1DDE82090098BB61 /* Roster View */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +263,23 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		9483D99B897EC2307191C6AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20C0473606AC4CFFAEC4A5FE /* Pods-Hockey Data.debug.xcconfig */,
+				E5789936F49AC3B7941430EE /* Pods-Hockey Data.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F756B8F3EC68C30C482613D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DA285EC43E6EAB8C5885A6 /* libPods-Hockey Data.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396C8E941CDA7D20004AD32D /* Build configuration list for PBXNativeTarget "Hockey Data" */;
 			buildPhases = (
+				CFD468C7B5D2E0892AD300A2 /* [CP] Check Pods Manifest.lock */,
 				396C8E791CDA7D20004AD32D /* Sources */,
 				396C8E7A1CDA7D20004AD32D /* Frameworks */,
 				396C8E7B1CDA7D20004AD32D /* Resources */,
+				2CFB9F64B2D05C99238D1B4B /* [CP] Embed Pods Frameworks */,
+				3009EB45243CAB070BC610AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +359,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CFB9F64B2D05C99238D1B4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3009EB45243CAB070BC610AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD468C7B5D2E0892AD300A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		396C8E791CDA7D20004AD32D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -333,8 +426,10 @@
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
 				39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */,
+				39C14EB41E36BF04009CE1A0 /* HDTeamSeason.m in Sources */,
 				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,
 				39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */,
+				39C14EB71E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +537,7 @@
 		};
 		396C8E951CDA7D20004AD32D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C0473606AC4CFFAEC4A5FE /* Pods-Hockey Data.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T36GJ569RT;
@@ -454,6 +550,7 @@
 		};
 		396C8E961CDA7D20004AD32D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5789936F49AC3B7941430EE /* Pods-Hockey Data.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T36GJ569RT;

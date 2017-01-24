@@ -162,6 +162,42 @@
     return foundedDictionary;
 }
 
-
++ (NSString *)NHLTeamID:(NSString *)teamAbbreviation {
+    static NSDictionary *idDictionary;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        idDictionary = @{@"ANA": @"0",
+                              @"ARI": @"1",
+                              @"BOS": @"2",
+                              @"BUF": @"3",
+                              @"CGY": @"4",
+                              @"CAR": @"5",
+                              @"CHI": @"6",
+                              @"COL": @"7",
+                              @"CBJ": @"8",
+                              @"DAL": @"9",
+                              @"DET": @"10",
+                              @"EDM": @"11",
+                              @"FLA": @"12",
+                              @"LAK": @"13",
+                              @"MIN": @"14",
+                              @"MTL": @"15",
+                              @"NSH": @"16",
+                              @"NJD": @"17",
+                              @"NYI": @"18",
+                              @"NYR": @"19",
+                              @"OTT": @"20",
+                              @"PHI": @"21",
+                              @"PIT": @"22",
+                              @"SJS": @"23",
+                              @"STL": @"24",
+                              @"TBL": @"25",
+                              @"TOR": @"26",
+                              @"VAN": @"27",
+                              @"WSH": @"28",
+                              @"WPG": @"29"};
+    });
+    return idDictionary[teamAbbreviation];
+}
 
 @end

@@ -9,6 +9,8 @@
 #import "Constants.h"
 #import "UIImageView+Remote.h"
 
+#import "HDTeamSeasonFetcher.h"
+
 #import "AKTeamViewController.h"
 
 @interface AKTeamViewController ()
@@ -24,6 +26,7 @@
 
 @property (copy, nonatomic) NSString *teamAbbreviation;
 @property (copy, nonatomic) NSString *venueAddress;
+@property (strong, nonatomic) HDTeamSeasonFetcher *seasonFetcher;
 
 @end
 
@@ -68,6 +71,9 @@
     
     self.stadiumLogoImageView.image = nil;
     [self.stadiumLogoImageView downloadImageFromURL:[NSString stringWithFormat:@"https://hockey-data.firebaseapp.com/arena_logos/%@.png", self.teamAbbreviation]];
+    
+    self.seasonFetcher = [[HDTeamSeasonFetcher alloc] initWithTeamAbbreviation:self.teamAbbreviation];
+    [self.seasonFetcher fetchSeasonsWithCompletion:nil];
 }
 
 - (IBAction)venueMapButtonPressed:(id)sender {

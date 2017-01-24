@@ -12,6 +12,8 @@
 #import "AKTeamGeneralInfoTableViewCell.h"
 #import "AKTeamVenueTableViewCell.h"
 
+#import "HDTeamSeasonFetcher.h"
+
 #import "AKTeamTableViewController.h"
 
 typedef NS_ENUM(NSInteger, AKTeamLinksCell) {
@@ -25,7 +27,8 @@ typedef NS_ENUM(NSInteger, AKTeamSection) {
     AKTeamSectionVenue,
     AKTeamSectionCups,
     AKTeamSectionColors,
-    AKTeamSectionRoster,
+//    AKTeamSectionRoster,
+    AKTeamSectionPastSeasons,
     AKTeamSectionLinks
 };
 
@@ -37,6 +40,8 @@ NSUInteger AKTeamSectionCount() {
 
 @property (copy, nonatomic) NSString *teamAbbreviation;
 @property (strong, nonatomic) NSDictionary *teamInfoDictionary;
+
+@property (strong, nonatomic) HDTeamSeasonFetcher *seasonFetcher;
 
 @end
 
@@ -79,6 +84,12 @@ NSUInteger AKTeamSectionCount() {
         });
     }];
     [task resume];
+    
+    self.seasonFetcher = [[HDTeamSeasonFetcher alloc] initWithTeamAbbreviation:self.teamAbbreviation];
+    [self.seasonFetcher fetchSeasonsWithCompletion:^{
+        RLMResults *seasons = [HDTeamSeason objectsWhere:@"teamID = %@", self.teamAbbreviation];
+        NSLog(@"%@ seasons:\n%@", self.teamAbbreviation, seasons);
+    }];
 }
 
 #pragma mark - Table view data source
@@ -109,15 +120,25 @@ NSUInteger AKTeamSectionCount() {
             }
             break;
         }
-        case AKTeamSectionRoster: {
+        case AKTeamSectionPastSeasons: {
             cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
             if (!cell) {
                 cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
             }
-            cell.textLabel.text = @"Roster";
+            cell.textLabel.text = @"Regular Season History";
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
+
         }
+//        case AKTeamSectionRoster: {
+//            cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell" forIndexPath:indexPath];
+//            if (!cell) {
+//                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GenericCell"];
+//            }
+//            cell.textLabel.text = @"Roster";
+//            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//            break;
+//        }
         case AKTeamSectionVenue: {
             cell = [tableView dequeueReusableCellWithIdentifier:@"VenueCell" forIndexPath:indexPath];
             if (!cell) {
@@ -211,8 +232,10 @@ NSUInteger AKTeamSectionCount() {
             return @"Playoffs";
         case AKTeamSectionColors:
             return @"Colors";
-        case AKTeamSectionRoster:
-            return @"Roster";
+        case AKTeamSectionPastSeasons:
+            return @"Past Seasons";
+//        case AKTeamSectionRoster:
+//            return @"Roster";
         case AKTeamSectionLinks:
             return @"Links";
         default:
@@ -244,10 +267,13 @@ NSUInteger AKTeamSectionCount() {
                 break;
         }
     }
-    if (indexPath.section == AKTeamSectionRoster) {
-        AKRosterTableViewController *rosterController = [[AKRosterTableViewController alloc] initWithTeam:self.teamAbbreviation];
-        [self.navigationController pushViewController:rosterController animated:YES];
-
+//    if (indexPath.section == AKTeamSectionRoster) {
+//        AKRosterTableViewController *rosterController = [[AKRosterTableViewController alloc] initWithTeam:self.teamAbbreviation];
+//        [self.navigationController pushViewController:rosterController animated:YES];
+//    }
+    if (indexPath.section == AKTeamSectionPastSeasons) {
+//        AKRosterTableViewController *rosterController = [[AKRosterTableViewController alloc] initWithTeam:self.teamAbbreviation];
+//        [self.navigationController pushViewController:rosterController animated:YES];
     }
 }
 

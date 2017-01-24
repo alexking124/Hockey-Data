@@ -14,10 +14,6 @@
     return @"key";
 }
 
-+ (NSDictionary *)defaultPropertyValues {
-    return @{};
-}
-
 // Specify default values for properties
 
 //+ (NSDictionary *)defaultPropertyValues

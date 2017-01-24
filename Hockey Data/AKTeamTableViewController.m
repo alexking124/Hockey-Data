@@ -11,8 +11,7 @@
 #import "AKTeamCupsTableViewCell.h"
 #import "AKTeamGeneralInfoTableViewCell.h"
 #import "AKTeamVenueTableViewCell.h"
-
-#import "HDTeamSeasonFetcher.h"
+#import "HDRegularSeasonHistoryTableViewController.h"
 
 #import "AKTeamTableViewController.h"
 
@@ -40,8 +39,6 @@ NSUInteger AKTeamSectionCount() {
 
 @property (copy, nonatomic) NSString *teamAbbreviation;
 @property (strong, nonatomic) NSDictionary *teamInfoDictionary;
-
-@property (strong, nonatomic) HDTeamSeasonFetcher *seasonFetcher;
 
 @end
 
@@ -84,12 +81,6 @@ NSUInteger AKTeamSectionCount() {
         });
     }];
     [task resume];
-    
-    self.seasonFetcher = [[HDTeamSeasonFetcher alloc] initWithTeamAbbreviation:self.teamAbbreviation];
-    [self.seasonFetcher fetchSeasonsWithCompletion:^{
-        RLMResults *seasons = [HDTeamSeason objectsWhere:@"teamID = %@", self.teamAbbreviation];
-        NSLog(@"%@ seasons:\n%@", self.teamAbbreviation, seasons);
-    }];
 }
 
 #pragma mark - Table view data source
@@ -203,19 +194,21 @@ NSUInteger AKTeamSectionCount() {
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-//    switch (indexPath.row) {
-//        case AKTeamCellGeneralInfo:
+//- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+//    return 44;
+//}
+//
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    switch (indexPath.section) {
+//        case AKTeamSectionGeneral:
 //            return 120;
-//        case AKTeamCellVenue:
+//        case AKTeamSectionVenue:
 //            return 165;
-//            
 //        default:
-//            return 44;
 //            break;
 //    }
-    return 44;
-}
+//    return 44;
+//}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     if (section == 0) return 0;
@@ -272,8 +265,8 @@ NSUInteger AKTeamSectionCount() {
 //        [self.navigationController pushViewController:rosterController animated:YES];
 //    }
     if (indexPath.section == AKTeamSectionPastSeasons) {
-//        AKRosterTableViewController *rosterController = [[AKRosterTableViewController alloc] initWithTeam:self.teamAbbreviation];
-//        [self.navigationController pushViewController:rosterController animated:YES];
+        HDRegularSeasonHistoryTableViewController *seasonController = [[HDRegularSeasonHistoryTableViewController alloc] initWithTeam:self.teamAbbreviation];
+        [self.navigationController pushViewController:seasonController animated:YES];
     }
 }
 

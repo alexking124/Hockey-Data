@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F14320FE61BF2E89AA9C1DD /* libPods-Hockey Data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DA285EC43E6EAB8C5885A6 /* libPods-Hockey Data.a */; };
-		39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AC31DCA64ED00486657 /* AKTeamViewController.m */; };
-		39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39021AC41DCA64ED00486657 /* AKTeamViewController.xib */; };
 		39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AD21DCD000B00486657 /* UIImageView+Remote.m */; };
 		396C8E821CDA7D20004AD32D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E811CDA7D20004AD32D /* main.m */; };
 		396C8E851CDA7D20004AD32D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C8E841CDA7D20004AD32D /* AppDelegate.m */; };
@@ -28,6 +26,11 @@
 		39BC835F1DE52BB800A106A2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC835E1DE52BB800A106A2 /* UIColor+Hex.m */; };
 		39C14EB41E36BF04009CE1A0 /* HDTeamSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EB31E36BF04009CE1A0 /* HDTeamSeason.m */; };
 		39C14EB71E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */; };
+		39C14EBD1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EBB1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.m */; };
+		39C14EBE1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C14EBC1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.xib */; };
+		39C14EC31E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C14EC11E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m */; };
+		39C14EC41E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C14EC21E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib */; };
+		39C14EC61E372D1A009CE1A0 /* HDRegularSeasonSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C14EC51E372D1A009CE1A0 /* HDRegularSeasonSectionHeaderView.xib */; };
 		39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */; };
 		39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */; };
 		39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */; };
@@ -43,9 +46,6 @@
 
 /* Begin PBXFileReference section */
 		20C0473606AC4CFFAEC4A5FE /* Pods-Hockey Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey Data.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data.debug.xcconfig"; sourceTree = "<group>"; };
-		39021AC21DCA64ED00486657 /* AKTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamViewController.h; sourceTree = "<group>"; };
-		39021AC31DCA64ED00486657 /* AKTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamViewController.m; sourceTree = "<group>"; };
-		39021AC41DCA64ED00486657 /* AKTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamViewController.xib; sourceTree = "<group>"; };
 		39021AD11DCD000B00486657 /* UIImageView+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Remote.h"; sourceTree = "<group>"; };
 		39021AD21DCD000B00486657 /* UIImageView+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Remote.m"; sourceTree = "<group>"; };
 		396C8E7D1CDA7D20004AD32D /* Hockey Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +76,13 @@
 		39C14EB31E36BF04009CE1A0 /* HDTeamSeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTeamSeason.m; sourceTree = "<group>"; };
 		39C14EB51E36CBC3009CE1A0 /* HDTeamSeasonFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTeamSeasonFetcher.h; sourceTree = "<group>"; };
 		39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTeamSeasonFetcher.m; sourceTree = "<group>"; };
+		39C14EBA1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRegularSeasonHistoryTableViewController.h; sourceTree = "<group>"; };
+		39C14EBB1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRegularSeasonHistoryTableViewController.m; sourceTree = "<group>"; };
+		39C14EBC1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDRegularSeasonHistoryTableViewController.xib; sourceTree = "<group>"; };
+		39C14EC01E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRegularSeasonTableViewCell.h; sourceTree = "<group>"; };
+		39C14EC11E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRegularSeasonTableViewCell.m; sourceTree = "<group>"; };
+		39C14EC21E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDRegularSeasonTableViewCell.xib; sourceTree = "<group>"; };
+		39C14EC51E372D1A009CE1A0 /* HDRegularSeasonSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDRegularSeasonSectionHeaderView.xib; sourceTree = "<group>"; };
 		39D610201DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamGeneralInfoTableViewCell.h; sourceTree = "<group>"; };
 		39D610211DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamGeneralInfoTableViewCell.m; sourceTree = "<group>"; };
 		39D610221DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamGeneralInfoTableViewCell.xib; sourceTree = "<group>"; };
@@ -145,6 +152,7 @@
 				396C8E841CDA7D20004AD32D /* AppDelegate.m */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
+				39C14EB81E36E706009CE1A0 /* Past Seasons */,
 				399B64EF1E36BD4300E6BC2F /* Realm */,
 				39D6102F1DDE82090098BB61 /* Roster View */,
 				396C8EB31CDABA96004AD32D /* Single Team View */,
@@ -203,9 +211,6 @@
 				39D610251DDE73CA0098BB61 /* AKTeamTableViewController.h */,
 				39D610261DDE73CA0098BB61 /* AKTeamTableViewController.m */,
 				39D610271DDE73CA0098BB61 /* AKTeamTableViewController.xib */,
-				39021AC21DCA64ED00486657 /* AKTeamViewController.h */,
-				39021AC31DCA64ED00486657 /* AKTeamViewController.m */,
-				39021AC41DCA64ED00486657 /* AKTeamViewController.xib */,
 			);
 			name = "Single Team View";
 			sourceTree = "<group>";
@@ -219,6 +224,36 @@
 				39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */,
 			);
 			name = Realm;
+			sourceTree = "<group>";
+		};
+		39C14EB81E36E706009CE1A0 /* Past Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				39C14EB91E36E719009CE1A0 /* Regular Season */,
+			);
+			name = "Past Seasons";
+			sourceTree = "<group>";
+		};
+		39C14EB91E36E719009CE1A0 /* Regular Season */ = {
+			isa = PBXGroup;
+			children = (
+				39C14EBF1E36EA33009CE1A0 /* Cells */,
+				39C14EBA1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.h */,
+				39C14EBB1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.m */,
+				39C14EBC1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.xib */,
+				39C14EC51E372D1A009CE1A0 /* HDRegularSeasonSectionHeaderView.xib */,
+			);
+			name = "Regular Season";
+			sourceTree = "<group>";
+		};
+		39C14EBF1E36EA33009CE1A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				39C14EC01E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.h */,
+				39C14EC11E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m */,
+				39C14EC21E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		39D6102F1DDE82090098BB61 /* Roster View */ = {
@@ -343,8 +378,11 @@
 			files = (
 				39D610291DDE73CA0098BB61 /* AKTeamTableViewController.xib in Resources */,
 				39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */,
+				39C14EC41E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib in Resources */,
 				39D610241DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.xib in Resources */,
 				39D6102E1DDE7B060098BB61 /* AKTeamVenueTableViewCell.xib in Resources */,
+				39C14EBE1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.xib in Resources */,
+				39C14EC61E372D1A009CE1A0 /* HDRegularSeasonSectionHeaderView.xib in Resources */,
 				396C8EAE1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib in Resources */,
 				39D610341DDE82260098BB61 /* AKRosterTableViewController.xib in Resources */,
 				39BC835C1DE51F0600A106A2 /* AKTeamColorsTableViewCell.xib in Resources */,
@@ -352,7 +390,6 @@
 				396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */,
 				396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */,
 				396C8E9E1CDA8AEB004AD32D /* AKTeamsListViewController.xib in Resources */,
-				39021AC61DCA64ED00486657 /* AKTeamViewController.xib in Resources */,
 				39D6103A1DDE82FA0098BB61 /* AKRosterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C14EBD1E36E860009CE1A0 /* HDRegularSeasonHistoryTableViewController.m in Sources */,
 				39D610391DDE82FA0098BB61 /* AKRosterTableViewCell.m in Sources */,
 				396C8EA81CDA91CB004AD32D /* Constants.m in Sources */,
 				39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */,
@@ -420,11 +458,11 @@
 				39BC835F1DE52BB800A106A2 /* UIColor+Hex.m in Sources */,
 				396C8E821CDA7D20004AD32D /* main.m in Sources */,
 				39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */,
-				39021AC51DCA64ED00486657 /* AKTeamViewController.m in Sources */,
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
+				39C14EC31E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m in Sources */,
 				39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */,
 				39C14EB41E36BF04009CE1A0 /* HDTeamSeason.m in Sources */,
 				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,

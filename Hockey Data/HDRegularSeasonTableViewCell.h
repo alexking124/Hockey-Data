@@ -12,6 +12,8 @@
 
 @interface HDRegularSeasonTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 - (void)presentTeamSeason:(HDTeamSeason *)season;
 
 @end

@@ -15,6 +15,8 @@
 
 @property (strong, nonatomic) NSString *teamAbbreviation;
 @property (strong, nonatomic) HDTeamSeasonFetcher *seasonFetcher;
+@property (assign, nonatomic) CGPoint cellOffset;
+@property (weak, nonatomic) UIScrollView *headerScrollView;
 
 @end
 
@@ -29,6 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.cellOffset = CGPointZero;
     
     self.seasonFetcher = [[HDTeamSeasonFetcher alloc] initWithTeamAbbreviation:self.teamAbbreviation];
     [self.seasonFetcher fetchSeasonsWithCompletion:^{
@@ -69,11 +73,16 @@
         cell.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1.0];
     }
     
+    cell.scrollView.delegate = self;
+    cell.scrollView.contentOffset = self.cellOffset;
+    
     return cell;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    return [[[NSBundle mainBundle] loadNibNamed:@"HDRegularSeasonSectionHeaderView" owner:self options:nil] objectAtIndex:0];
+    UIView *header = [[[NSBundle mainBundle] loadNibNamed:@"HDRegularSeasonSectionHeaderView" owner:self options:nil] objectAtIndex:0];
+    self.headerScrollView = [header viewWithTag:1];
+    return header;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -82,9 +91,24 @@
 
 #pragma mark - Table view delegate
 
-// In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+#pragma mark - UIScrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    if ([scrollView isKindOfClass:[UITableView class]]) {
+        return;
+    }
+    
+    for (HDRegularSeasonTableViewCell *cell in self.tableView.visibleCells) {
+        self.cellOffset = scrollView.contentOffset;
+        cell.scrollView.contentOffset = scrollView.contentOffset;
+        self.headerScrollView.contentOffset = scrollView.contentOffset;
+    }
+    
 }
 
 @end

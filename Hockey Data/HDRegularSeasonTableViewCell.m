@@ -13,6 +13,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *seasonLabel;
 @property (weak, nonatomic) IBOutlet UILabel *teamNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gamesPlayedLabel;
+@property (weak, nonatomic) IBOutlet UILabel *winsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lossesLabel;
+@property (weak, nonatomic) IBOutlet UILabel *tiesLabel;
+@property (weak, nonatomic) IBOutlet UILabel *otlLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pointsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pointsPercentageLabel;
 
 @end
 
@@ -38,6 +44,12 @@
     self.seasonLabel.text = season.season;
     self.teamNameLabel.text = [season.teamName stringByReplacingOccurrencesOfString:@"*" withString:@""];
     self.gamesPlayedLabel.text = [NSString stringWithFormat:@"%ld", (long)season.gamesPlayed];
+    self.winsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.wins];
+    self.lossesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.losses];
+    self.tiesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.ties];
+    self.otlLabel.text = [NSString stringWithFormat:@"%ld", (long)season.overtimeLosses];
+    self.pointsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.points];
+    self.pointsPercentageLabel.text = [NSString stringWithFormat:@"%@", season.pointsPercentage];
 }
 
 @end

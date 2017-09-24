@@ -5,6 +5,7 @@
   "founded_year": 1993,
   "stadium": {
   	"name": "BB&T Center",
+  	"capacity": 19250,
   	"address": "1 Panther Pkwy, Sunrise, FL 33323"
   },
   "playoffs": {

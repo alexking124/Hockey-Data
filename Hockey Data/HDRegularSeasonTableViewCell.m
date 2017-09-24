@@ -31,6 +31,7 @@
 }
 
 - (void)prepareForReuse {
+    [super prepareForReuse];
     self.backgroundColor = [UIColor clearColor];
 }
 

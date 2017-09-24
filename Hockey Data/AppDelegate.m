@@ -6,6 +6,10 @@
 //  Copyright © 2016 Alex King. All rights reserved.
 //
 
+@import Firebase;
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 #import "AKTeamsListViewController.h"
 #import "Constants.h"
 
@@ -20,6 +24,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FIRApp configure];
+    [Fabric with:@[[Crashlytics class], [Answers class]]];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    UITabBarController *tabBarController = [UITabBarController new];

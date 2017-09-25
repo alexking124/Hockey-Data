@@ -1,4 +1,5 @@
+platform :ios, '9.3'
+
 target 'Hockey Data' do
- pod 'Realm'
  pod 'Firebase/Core'
 end

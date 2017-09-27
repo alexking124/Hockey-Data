@@ -1,3 +1,5 @@
 github "realm/realm-cocoa"
 github "malcommac/SwiftDate" == 4.3.0
 github "roberthein/TinyConstraints"
+github "Alamofire/Alamofire" ~> 4.5
+github "Hearst-DD/ObjectMapper" ~> 3.0

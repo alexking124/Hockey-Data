@@ -30,6 +30,8 @@
 		398194751F789104007E2FB4 /* Fabric.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398194681F777925007E2FB4 /* Fabric.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		398194761F789108007E2FB4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398194671F777925007E2FB4 /* Crashlytics.framework */; };
 		398194771F789108007E2FB4 /* Crashlytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398194671F777925007E2FB4 /* Crashlytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3981947B1F7B4F6E007E2FB4 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981947A1F7B4F40007E2FB4 /* SwiftDate.framework */; };
+		3981947C1F7B4F6E007E2FB4 /* SwiftDate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3981947A1F7B4F40007E2FB4 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */; };
 		39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */; };
 		39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */; };
@@ -63,6 +65,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				398194731F7890F7007E2FB4 /* RealmSwift.framework in Embed Frameworks */,
+				3981947C1F7B4F6E007E2FB4 /* SwiftDate.framework in Embed Frameworks */,
 				398194701F7890F3007E2FB4 /* Realm.framework in Embed Frameworks */,
 				398194771F789108007E2FB4 /* Crashlytics.framework in Embed Frameworks */,
 				398194751F789104007E2FB4 /* Fabric.framework in Embed Frameworks */,
@@ -97,6 +100,9 @@
 		398194681F777925007E2FB4 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		3981946D1F788FA9007E2FB4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
 		3981946E1F788FAA007E2FB4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = SOURCE_ROOT; };
+		398194781F7B4CDA007E2FB4 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		398194791F7B4CE1007E2FB4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		3981947A1F7B4F40007E2FB4 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
 		39BC83531DE51EDA00A106A2 /* AKTeamCupsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamCupsTableViewCell.h; sourceTree = "<group>"; };
 		39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamCupsTableViewCell.m; sourceTree = "<group>"; };
 		39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamCupsTableViewCell.xib; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 			files = (
 				3981946F1F7890F3007E2FB4 /* Realm.framework in Frameworks */,
 				398194721F7890F7007E2FB4 /* RealmSwift.framework in Frameworks */,
+				3981947B1F7B4F6E007E2FB4 /* SwiftDate.framework in Frameworks */,
 				1F14320FE61BF2E89AA9C1DD /* libPods-Hockey Data.a in Frameworks */,
 				3981946B1F777B47007E2FB4 /* Crashlytics.framework in Frameworks */,
 				3981946A1F777B44007E2FB4 /* Fabric.framework in Frameworks */,
@@ -209,6 +216,8 @@
 			children = (
 				396C8E911CDA7D20004AD32D /* Info.plist */,
 				398194651F7776C4007E2FB4 /* GoogleService-Info.plist */,
+				398194781F7B4CDA007E2FB4 /* Cartfile */,
+				398194791F7B4CE1007E2FB4 /* Podfile */,
 				396C8E811CDA7D20004AD32D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -350,6 +359,7 @@
 		F756B8F3EC68C30C482613D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3981947A1F7B4F40007E2FB4 /* SwiftDate.framework */,
 				3981946E1F788FAA007E2FB4 /* Realm.framework */,
 				3981946D1F788FA9007E2FB4 /* RealmSwift.framework */,
 				398194671F777925007E2FB4 /* Crashlytics.framework */,
@@ -482,6 +492,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (

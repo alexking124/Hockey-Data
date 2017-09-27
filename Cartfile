@@ -1,2 +1,3 @@
 github "realm/realm-cocoa"
 github "malcommac/SwiftDate" == 4.3.0
+github "roberthein/TinyConstraints"

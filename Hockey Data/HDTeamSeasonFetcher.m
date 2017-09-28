@@ -101,10 +101,10 @@ static NSString * const kSeasonFetcherBaseURL = @"https://hockey-data.firebaseap
     realmDictionary[@"playoffs"] = seasonDictionary[@"Playoffs"];
     realmDictionary[@"coaches"] = seasonDictionary[@"Coaches"];
     
-    RLMRealm *realm = [RLMRealm defaultRealm];
-    [realm transactionWithBlock:^{
-        [HDTeamSeason createOrUpdateInRealm:realm withValue:realmDictionary];
-    }];
+//    RLMRealm *realm = [RLMRealm defaultRealm];
+//    [realm transactionWithBlock:^{
+//        [HDTeamSeason createOrUpdateInRealm:realm withValue:realmDictionary];
+//    }];
 }
 
 @end

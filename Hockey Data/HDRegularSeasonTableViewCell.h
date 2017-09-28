@@ -6,7 +6,7 @@
 //  Copyright © 2017 Alex King. All rights reserved.
 //
 
-#import "HDTeamSeason.h"
+//#import "HDTeamSeason.h"
 
 #import <UIKit/UIKit.h>
 
@@ -14,6 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
-- (void)presentTeamSeason:(HDTeamSeason *)season;
+//- (void)presentTeamSeason:(HDTeamSeason *)season;
 
 @end

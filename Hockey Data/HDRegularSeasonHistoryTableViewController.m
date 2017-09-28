@@ -44,9 +44,9 @@
 
 #pragma mark - Realm
 
-- (RLMResults *)fetchLocalSeasons {
-    return [HDTeamSeason objectsWhere:@"teamID = %@", self.teamAbbreviation];
-}
+//- (RLMResults *)fetchLocalSeasons {
+//    return [HDTeamSeason objectsWhere:@"teamID = %@", self.teamAbbreviation];
+//}
 
 #pragma mark - Table view data source
 
@@ -55,7 +55,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self fetchLocalSeasons].count;
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -66,8 +66,8 @@
     
     // Configure the cell...
     
-    HDTeamSeason *season = [[self fetchLocalSeasons] objectAtIndex:indexPath.row];
-    [cell presentTeamSeason:season];
+//    HDTeamSeason *season = [[self fetchLocalSeasons] objectAtIndex:indexPath.row];
+//    [cell presentTeamSeason:season];
     
     if (indexPath.row % 2 == 0) {
         cell.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1.0];

@@ -41,16 +41,16 @@
     // Configure the view for the selected state
 }
 
-- (void)presentTeamSeason:(HDTeamSeason *)season {
-    self.seasonLabel.text = season.season;
-    self.teamNameLabel.text = [season.teamName stringByReplacingOccurrencesOfString:@"*" withString:@""];
-    self.gamesPlayedLabel.text = [NSString stringWithFormat:@"%ld", (long)season.gamesPlayed];
-    self.winsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.wins];
-    self.lossesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.losses];
-    self.tiesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.ties];
-    self.otlLabel.text = [NSString stringWithFormat:@"%ld", (long)season.overtimeLosses];
-    self.pointsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.points];
-    self.pointsPercentageLabel.text = [NSString stringWithFormat:@"%@", season.pointsPercentage];
-}
+//- (void)presentTeamSeason:(HDTeamSeason *)season {
+//    self.seasonLabel.text = season.season;
+//    self.teamNameLabel.text = [season.teamName stringByReplacingOccurrencesOfString:@"*" withString:@""];
+//    self.gamesPlayedLabel.text = [NSString stringWithFormat:@"%ld", (long)season.gamesPlayed];
+//    self.winsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.wins];
+//    self.lossesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.losses];
+//    self.tiesLabel.text = [NSString stringWithFormat:@"%ld", (long)season.ties];
+//    self.otlLabel.text = [NSString stringWithFormat:@"%ld", (long)season.overtimeLosses];
+//    self.pointsLabel.text = [NSString stringWithFormat:@"%ld", (long)season.points];
+//    self.pointsPercentageLabel.text = [NSString stringWithFormat:@"%@", season.pointsPercentage];
+//}
 
 @end

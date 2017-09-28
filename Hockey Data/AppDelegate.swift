@@ -27,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let teamsNavigation = UINavigationController(rootViewController: AKTeamsListViewController())
         window?.rootViewController = teamsNavigation
         
+        SeasonFetcher().fetchSeasons()
+        
         return true
     }
     

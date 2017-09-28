@@ -1,3 +1,5 @@
+github "Alamofire/Alamofire" "4.5.1"
+github "Hearst-DD/ObjectMapper" "3.0.0"
 github "malcommac/SwiftDate" "4.3.0"
-github "realm/realm-cocoa" "v2.10.1"
+github "realm/realm-cocoa" "v2.10.2"
 github "roberthein/TinyConstraints" "3.0.0"

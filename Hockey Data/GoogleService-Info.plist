@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>455604633566-aqeknavidmpq0f15so9gaq1teedpakr1.apps.googleusercontent.com</string>
+	<string>455604633566-u5bfuq1ues7rl8i9bka2ucsnol7m2jvo.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.455604633566-aqeknavidmpq0f15so9gaq1teedpakr1</string>
+	<string>com.googleusercontent.apps.455604633566-u5bfuq1ues7rl8i9bka2ucsnol7m2jvo</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBQLvns9ydFGV-51xjqnlSCE7D9Rvbgjro</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,23 +17,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.aking.Hockey-Data</string>
+	<string>com.pryanik.HockeyData</string>
 	<key>PROJECT_ID</key>
 	<string>hockey-data</string>
 	<key>STORAGE_BUCKET</key>
 	<string>hockey-data.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:455604633566:ios:0195f448c9164641</string>
+	<string>1:455604633566:ios:e65d3b5c5b5f09a7</string>
 	<key>DATABASE_URL</key>
 	<string>https://hockey-data.firebaseio.com</string>
 </dict>

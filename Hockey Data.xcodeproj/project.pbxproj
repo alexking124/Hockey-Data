@@ -39,6 +39,9 @@
 		398194881F7CA502007E2FB4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398194831F7CA4E7007E2FB4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3981948A1F7CA6CB007E2FB4 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398194891F7CA6CB007E2FB4 /* Team.swift */; };
 		3981948D1F7CAB82007E2FB4 /* SeasonFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3981948C1F7CAB82007E2FB4 /* SeasonFetcher.swift */; };
+		398194901F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */; };
+		398194911F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		398194931F7CB604007E2FB4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398194921F7CB604007E2FB4 /* Game.swift */; };
 		39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */; };
 		39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */; };
 		39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */; };
@@ -74,6 +77,7 @@
 				3981947C1F7B4F6E007E2FB4 /* SwiftDate.framework in Embed Frameworks */,
 				398194701F7890F3007E2FB4 /* Realm.framework in Embed Frameworks */,
 				398194821F7B6555007E2FB4 /* TinyConstraints.framework in Embed Frameworks */,
+				398194911F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Embed Frameworks */,
 				398194771F789108007E2FB4 /* Crashlytics.framework in Embed Frameworks */,
 				398194751F789104007E2FB4 /* Fabric.framework in Embed Frameworks */,
 				398194861F7CA4FE007E2FB4 /* ObjectMapper.framework in Embed Frameworks */,
@@ -88,7 +92,7 @@
 		20C0473606AC4CFFAEC4A5FE /* Pods-Hockey Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey Data.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data.debug.xcconfig"; sourceTree = "<group>"; };
 		39021AD11DCD000B00486657 /* UIImageView+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Remote.h"; sourceTree = "<group>"; };
 		39021AD21DCD000B00486657 /* UIImageView+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Remote.m"; sourceTree = "<group>"; };
-		396C8E7D1CDA7D20004AD32D /* Hockey_Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hockey_Data.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396C8E7D1CDA7D20004AD32D /* HockeyData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396C8E8C1CDA7D20004AD32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396C8E8F1CDA7D20004AD32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396C8E911CDA7D20004AD32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		398194841F7CA4EF007E2FB4 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = SOURCE_ROOT; };
 		398194891F7CA6CB007E2FB4 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		3981948C1F7CAB82007E2FB4 /* SeasonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonFetcher.swift; sourceTree = "<group>"; };
+		3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = SOURCE_ROOT; };
+		398194921F7CB604007E2FB4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		39BC83531DE51EDA00A106A2 /* AKTeamCupsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamCupsTableViewCell.h; sourceTree = "<group>"; };
 		39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamCupsTableViewCell.m; sourceTree = "<group>"; };
 		39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamCupsTableViewCell.xib; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 				1F14320FE61BF2E89AA9C1DD /* libPods-Hockey Data.a in Frameworks */,
 				3981946B1F777B47007E2FB4 /* Crashlytics.framework in Frameworks */,
 				3981946A1F777B44007E2FB4 /* Fabric.framework in Frameworks */,
+				398194901F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Frameworks */,
 				398194871F7CA502007E2FB4 /* Alamofire.framework in Frameworks */,
 				398194811F7B6555007E2FB4 /* TinyConstraints.framework in Frameworks */,
 				398194741F789104007E2FB4 /* Fabric.framework in Frameworks */,
@@ -200,7 +207,7 @@
 		396C8E7E1CDA7D20004AD32D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				396C8E7D1CDA7D20004AD32D /* Hockey_Data.app */,
+				396C8E7D1CDA7D20004AD32D /* HockeyData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +299,7 @@
 				39C14EB51E36CBC3009CE1A0 /* HDTeamSeasonFetcher.h */,
 				39C14EB61E36CBC3009CE1A0 /* HDTeamSeasonFetcher.m */,
 				398194891F7CA6CB007E2FB4 /* Team.swift */,
+				398194921F7CB604007E2FB4 /* Game.swift */,
 			);
 			name = Realm;
 			sourceTree = "<group>";
@@ -380,6 +388,7 @@
 		F756B8F3EC68C30C482613D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */,
 				398194841F7CA4EF007E2FB4 /* ObjectMapper.framework */,
 				398194831F7CA4E7007E2FB4 /* Alamofire.framework */,
 				398194801F7B6533007E2FB4 /* TinyConstraints.framework */,
@@ -396,9 +405,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		396C8E7C1CDA7D20004AD32D /* Hockey_Data */ = {
+		396C8E7C1CDA7D20004AD32D /* HockeyData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 396C8E941CDA7D20004AD32D /* Build configuration list for PBXNativeTarget "Hockey_Data" */;
+			buildConfigurationList = 396C8E941CDA7D20004AD32D /* Build configuration list for PBXNativeTarget "HockeyData" */;
 			buildPhases = (
 				CFD468C7B5D2E0892AD300A2 /* [CP] Check Pods Manifest.lock */,
 				396C8E791CDA7D20004AD32D /* Sources */,
@@ -413,9 +422,9 @@
 			);
 			dependencies = (
 			);
-			name = Hockey_Data;
+			name = HockeyData;
 			productName = "Hockey Data";
-			productReference = 396C8E7D1CDA7D20004AD32D /* Hockey_Data.app */;
+			productReference = 396C8E7D1CDA7D20004AD32D /* HockeyData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -429,7 +438,7 @@
 				TargetAttributes = {
 					396C8E7C1CDA7D20004AD32D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = T36GJ569RT;
+						DevelopmentTeam = DUYQ44RPLQ;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -447,7 +456,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				396C8E7C1CDA7D20004AD32D /* Hockey_Data */,
+				396C8E7C1CDA7D20004AD32D /* HockeyData */,
 			);
 		};
 /* End PBXProject section */
@@ -521,6 +530,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -565,6 +575,7 @@
 				3981947F1F7B6314007E2FB4 /* AppDelegate.swift in Sources */,
 				39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */,
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
+				398194931F7CB604007E2FB4 /* Game.swift in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
@@ -698,7 +709,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = T36GJ569RT;
+				DEVELOPMENT_TEAM = DUYQ44RPLQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -707,7 +718,7 @@
 				);
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aking.Hockey-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pryanik.HockeyData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hockey Data/Hockey Data-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -723,7 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = T36GJ569RT;
+				DEVELOPMENT_TEAM = DUYQ44RPLQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -732,7 +743,7 @@
 				);
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aking.Hockey-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pryanik.HockeyData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hockey Data/Hockey Data-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -751,7 +762,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		396C8E941CDA7D20004AD32D /* Build configuration list for PBXNativeTarget "Hockey_Data" */ = {
+		396C8E941CDA7D20004AD32D /* Build configuration list for PBXNativeTarget "HockeyData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				396C8E951CDA7D20004AD32D /* Debug */,

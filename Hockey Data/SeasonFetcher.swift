@@ -6,8 +6,9 @@
 //  Copyright © 2017 Alex King. All rights reserved.
 //
 
-import Foundation
+import RealmSwift
 import Alamofire
+import AlamofireObjectMapper
 
 struct SeasonFetcher {
     
@@ -28,6 +29,27 @@ struct SeasonFetcher {
             .responseJSON { json in
                 print(json)
             }
+            .responseArray(keyPath: "fullgameschedule.gameentry") { (response: DataResponse<[Game]>) in
+                switch response.result {
+                case .success(let games):
+                    do {
+                        let realm = try Realm()
+                        try realm.write {
+                            for game in games {
+                                realm.add(game, update: true)
+                            }
+                        }
+                        let sjsGames = realm.objects(Game.self).filter("homeTeam.abbreviation = 'SJS'")
+                        print(sjsGames)
+                    }
+                    catch {
+                        print(error)
+                    }
+                    
+                case .failure(let error):
+                    print(error)
+                }
+        }
     }
     
 }

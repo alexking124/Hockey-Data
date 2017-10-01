@@ -1,5 +1,5 @@
 platform :ios, '9.3'
 
-target 'Hockey Data' do
+target 'HockeyData' do
  pod 'Firebase/Core'
 end

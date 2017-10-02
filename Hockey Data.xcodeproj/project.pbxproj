@@ -41,6 +41,7 @@
 		398194901F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */; };
 		398194911F7CB57D007E2FB4 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		398194931F7CB604007E2FB4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398194921F7CB604007E2FB4 /* Game.swift */; };
+		398194961F81A739007E2FB4 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398194951F81A739007E2FB4 /* RemoteConfig.swift */; };
 		39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */; };
 		39BC83571DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */; };
 		39BC835B1DE51F0600A106A2 /* AKTeamColorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC83591DE51F0600A106A2 /* AKTeamColorsTableViewCell.m */; };
@@ -123,6 +124,7 @@
 		3981948C1F7CAB82007E2FB4 /* SeasonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonFetcher.swift; sourceTree = "<group>"; };
 		3981948F1F7CB56F007E2FB4 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = SOURCE_ROOT; };
 		398194921F7CB604007E2FB4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		398194951F81A739007E2FB4 /* RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
 		39BC83531DE51EDA00A106A2 /* AKTeamCupsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamCupsTableViewCell.h; sourceTree = "<group>"; };
 		39BC83541DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamCupsTableViewCell.m; sourceTree = "<group>"; };
 		39BC83551DE51EDA00A106A2 /* AKTeamCupsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKTeamCupsTableViewCell.xib; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		396C8E7F1CDA7D20004AD32D /* Hockey Data */ = {
 			isa = PBXGroup;
 			children = (
+				398194941F81A724007E2FB4 /* Remote Config */,
 				3981947E1F7B6314007E2FB4 /* AppDelegate.swift */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
@@ -293,6 +296,14 @@
 				3981948C1F7CAB82007E2FB4 /* SeasonFetcher.swift */,
 			);
 			name = Alamofire;
+			sourceTree = "<group>";
+		};
+		398194941F81A724007E2FB4 /* Remote Config */ = {
+			isa = PBXGroup;
+			children = (
+				398194951F81A739007E2FB4 /* RemoteConfig.swift */,
+			);
+			name = "Remote Config";
 			sourceTree = "<group>";
 		};
 		399B64EF1E36BD4300E6BC2F /* Realm */ = {
@@ -581,6 +592,7 @@
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
 				398194931F7CB604007E2FB4 /* Game.swift in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
+				398194961F81A739007E2FB4 /* RemoteConfig.swift in Sources */,
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
 				39C14EC31E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m in Sources */,

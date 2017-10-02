@@ -22,13 +22,13 @@ struct SeasonFetcher {
         }
         
         Alamofire.request("https://api.mysportsfeeds.com/v1.1/pull/nhl/2016-2017-regular/full_game_schedule.json", headers: headers)
-            .response { response in
-                print(response)
-                print(response.response?.statusCode)
-            }
-            .responseJSON { json in
-                print(json)
-            }
+//            .response { response in
+//                print(response)
+//                print(response.response?.statusCode)
+//            }
+//            .responseJSON { json in
+//                print(json)
+//            }
             .responseArray(keyPath: "fullgameschedule.gameentry") { (response: DataResponse<[Game]>) in
                 switch response.result {
                 case .success(let games):

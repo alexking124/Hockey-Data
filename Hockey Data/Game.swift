@@ -12,8 +12,10 @@ import ObjectMapper
 
 class Game: Object, Mappable {
     
+    static let dateFormatter = DateFormatter(withFormat: "yyyy-MM-dd", locale: "en_US")
+    
     dynamic var id: String?
-    dynamic var date: String?
+    dynamic var date: Date?
     dynamic var time: String?
     dynamic var location: String?
     dynamic var homeTeam: Team?
@@ -29,16 +31,11 @@ class Game: Object, Mappable {
     
     func mapping(map: Map) {
         id <- map["id"]
-        date <- map["date"]
+        date <- (map["date"], DateFormatterTransform(dateFormatter: Game.dateFormatter))
         time <- map["time"]
         location <- map["location"]
         homeTeam <- map["homeTeam"]
         awayTeam <- map["awayTeam"]
     }
     
-    // Specify properties to ignore (Realm won't persist these)
-    
-    //  override static func ignoredProperties() -> [String] {
-    //    return []
-    //  }
 }

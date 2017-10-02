@@ -16,6 +16,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    var config: FirebaseConfig?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
@@ -27,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let teamsNavigation = UINavigationController(rootViewController: AKTeamsListViewController())
         window?.rootViewController = teamsNavigation
         
+        config = FirebaseConfig()
+        config?.fetch()
         SeasonFetcher().fetchSeasons()
         
         return true

@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         config = FirebaseConfig()
         config?.fetch()
-        SeasonFetcher().fetchSeasons()
+        SeasonFetcher().fetchSeason(.s16_17, team: .buf)
         
         return true
     }

@@ -12,10 +12,10 @@ import ObjectMapper
 
 class Team: Object, Mappable {
     
-    dynamic var id: String?
-    dynamic var name: String?
-    dynamic var city: String?
-    dynamic var abbreviation: String?
+    @objc dynamic var id: String?
+    @objc dynamic var name: String?
+    @objc dynamic var city: String?
+    @objc dynamic var abbreviation: String?
     
     override static func primaryKey() -> String? {
         return "id"

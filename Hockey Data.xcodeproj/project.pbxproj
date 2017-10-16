@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AD21DCD000B00486657 /* UIImageView+Remote.m */; };
+		3924FBD71F943496002C48B2 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924FBD61F943496002C48B2 /* Season.swift */; };
+		3924FBDA1F94439C002C48B2 /* MSFTeamID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924FBD91F94439C002C48B2 /* MSFTeamID.swift */; };
 		396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8C1CDA7D20004AD32D /* Assets.xcassets */; };
 		396C8E901CDA7D20004AD32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */; };
 		396C8E991CDA87CB004AD32D /* Logos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E981CDA87CB004AD32D /* Logos.xcassets */; };
@@ -95,6 +97,8 @@
 		2A44BE39314E2F757E7E46EA /* Pods-HockeyData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HockeyData/Pods-HockeyData.debug.xcconfig"; sourceTree = "<group>"; };
 		39021AD11DCD000B00486657 /* UIImageView+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Remote.h"; sourceTree = "<group>"; };
 		39021AD21DCD000B00486657 /* UIImageView+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Remote.m"; sourceTree = "<group>"; };
+		3924FBD61F943496002C48B2 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		3924FBD91F94439C002C48B2 /* MSFTeamID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFTeamID.swift; sourceTree = "<group>"; };
 		396C8E7D1CDA7D20004AD32D /* HockeyData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396C8E8C1CDA7D20004AD32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396C8E8F1CDA7D20004AD32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,7 +118,7 @@
 		3981946D1F788FA9007E2FB4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
 		3981946E1F788FAA007E2FB4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = SOURCE_ROOT; };
 		398194781F7B4CDA007E2FB4 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		398194791F7B4CE1007E2FB4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		398194791F7B4CE1007E2FB4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3981947A1F7B4F40007E2FB4 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
 		3981947D1F7B6314007E2FB4 /* Hockey Data-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hockey Data-Bridging-Header.h"; sourceTree = "<group>"; };
 		3981947E1F7B6314007E2FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +204,22 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		3924FBD51F943436002C48B2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3924FBD61F943496002C48B2 /* Season.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3924FBD81F94438A002C48B2 /* My Sports Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				3924FBD91F94439C002C48B2 /* MSFTeamID.swift */,
+			);
+			name = "My Sports Feeds";
+			sourceTree = "<group>";
+		};
 		396C8E741CDA7D20004AD32D = {
 			isa = PBXGroup;
 			children = (
@@ -221,12 +241,14 @@
 		396C8E7F1CDA7D20004AD32D /* Hockey Data */ = {
 			isa = PBXGroup;
 			children = (
+				3924FBD81F94438A002C48B2 /* My Sports Feeds */,
 				398194971F8206F9007E2FB4 /* Tracking */,
 				398194941F81A724007E2FB4 /* Remote Config */,
 				3981947E1F7B6314007E2FB4 /* AppDelegate.swift */,
 				396C8E8C1CDA7D20004AD32D /* Assets.xcassets */,
 				396C8E8E1CDA7D20004AD32D /* LaunchScreen.storyboard */,
 				39C14EB81E36E706009CE1A0 /* Past Seasons */,
+				3924FBD51F943436002C48B2 /* API */,
 				3981948B1F7CAB60007E2FB4 /* Alamofire */,
 				399B64EF1E36BD4300E6BC2F /* Realm */,
 				39D6102F1DDE82090098BB61 /* Roster View */,
@@ -602,9 +624,11 @@
 				3981947F1F7B6314007E2FB4 /* AppDelegate.swift in Sources */,
 				39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */,
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
+				3924FBDA1F94439C002C48B2 /* MSFTeamID.swift in Sources */,
 				398194931F7CB604007E2FB4 /* Game.swift in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 				398194961F81A739007E2FB4 /* RemoteConfig.swift in Sources */,
+				3924FBD71F943496002C48B2 /* Season.swift in Sources */,
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
 				39C14EC31E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m in Sources */,
@@ -750,7 +774,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hockey Data/Hockey Data-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -774,7 +798,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pryanik.HockeyData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hockey Data/Hockey Data-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

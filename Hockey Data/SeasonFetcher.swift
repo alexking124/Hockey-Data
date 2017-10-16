@@ -15,20 +15,19 @@ struct SeasonFetcher {
     let username = "alexking124"
     let password = "vJk0Us5RsC"
     
-    func fetchSeasons() {
+    func fetchSeason(_ season: Season, type: SeasonType = .regular, team: MSFTeamID? = nil) {
         var headers: HTTPHeaders = [:]
-        if let authorizationHeader = Request.authorizationHeader(user: username, password: password) {
-            headers[authorizationHeader.key] = authorizationHeader.value
+        guard let authorizationHeader = Request.authorizationHeader(user: username, password: password) else {
+            return
+        }
+        headers[authorizationHeader.key] = authorizationHeader.value
+        
+        var query = ""
+        if let team = team {
+            query = "?team=\(team.rawValue)"
         }
         
-        Alamofire.request("https://api.mysportsfeeds.com/v1.1/pull/nhl/2016-2017-regular/full_game_schedule.json", headers: headers)
-//            .response { response in
-//                print(response)
-//                print(response.response?.statusCode)
-//            }
-//            .responseJSON { json in
-//                print(json)
-//            }
+        Alamofire.request("https://api.mysportsfeeds.com/v1.1/pull/nhl/\(season.requestString(type: type))/full_game_schedule.json\(query)", headers: headers)
             .responseArray(keyPath: "fullgameschedule.gameentry") { (response: DataResponse<[Game]>) in
                 switch response.result {
                 case .success(let games):

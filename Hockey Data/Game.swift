@@ -14,12 +14,12 @@ class Game: Object, Mappable {
     
     static let dateFormatter = DateFormatter(withFormat: "yyyy-MM-dd", locale: "en_US")
     
-    dynamic var id: String?
-    dynamic var date: Date?
-    dynamic var time: String?
-    dynamic var location: String?
-    dynamic var homeTeam: Team?
-    dynamic var awayTeam: Team?
+    @objc dynamic var id: String?
+    @objc dynamic var date: Date?
+    @objc dynamic var time: String?
+    @objc dynamic var location: String?
+    @objc dynamic var homeTeam: Team?
+    @objc dynamic var awayTeam: Team?
     
     override static func primaryKey() -> String? {
         return "id"

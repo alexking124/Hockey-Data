@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 39021AD21DCD000B00486657 /* UIImageView+Remote.m */; };
+		39195C7E1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39195C7D1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift */; };
 		3924FBD71F943496002C48B2 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924FBD61F943496002C48B2 /* Season.swift */; };
 		3924FBDA1F94439C002C48B2 /* MSFTeamID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924FBD91F94439C002C48B2 /* MSFTeamID.swift */; };
 		396C8E8D1CDA7D20004AD32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C8E8C1CDA7D20004AD32D /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 		2A44BE39314E2F757E7E46EA /* Pods-HockeyData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HockeyData/Pods-HockeyData.debug.xcconfig"; sourceTree = "<group>"; };
 		39021AD11DCD000B00486657 /* UIImageView+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Remote.h"; sourceTree = "<group>"; };
 		39021AD21DCD000B00486657 /* UIImageView+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Remote.m"; sourceTree = "<group>"; };
+		39195C7D1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularSeasonHistoryCell.swift; sourceTree = "<group>"; };
 		3924FBD61F943496002C48B2 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		3924FBD91F94439C002C48B2 /* MSFTeamID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFTeamID.swift; sourceTree = "<group>"; };
 		396C8E7D1CDA7D20004AD32D /* HockeyData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyData.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,6 +378,7 @@
 				39C14EC01E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.h */,
 				39C14EC11E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m */,
 				39C14EC21E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.xib */,
+				39195C7D1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -491,7 +494,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 396C8E781CDA7D20004AD32D /* Build configuration list for PBXProject "Hockey Data" */;
+			buildConfigurationList = 396C8E781CDA7D20004AD32D /* Build configuration list for PBXProject "HockeyData" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -626,6 +629,7 @@
 				396C8EAB1CDAAF24004AD32D /* AKTeamsListTableViewCell.m in Sources */,
 				3924FBDA1F94439C002C48B2 /* MSFTeamID.swift in Sources */,
 				398194931F7CB604007E2FB4 /* Game.swift in Sources */,
+				39195C7E1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 				398194961F81A739007E2FB4 /* RemoteConfig.swift in Sources */,
 				3924FBD71F943496002C48B2 /* Season.swift in Sources */,
@@ -805,7 +809,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		396C8E781CDA7D20004AD32D /* Build configuration list for PBXProject "Hockey Data" */ = {
+		396C8E781CDA7D20004AD32D /* Build configuration list for PBXProject "HockeyData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				396C8E921CDA7D20004AD32D /* Debug */,

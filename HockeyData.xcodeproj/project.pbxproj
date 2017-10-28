@@ -68,6 +68,8 @@
 		39D610391DDE82FA0098BB61 /* AKRosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D610371DDE82FA0098BB61 /* AKRosterTableViewCell.m */; };
 		39D6103A1DDE82FA0098BB61 /* AKRosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */; };
 		39D6103D1DDE9E9F0098BB61 /* AKTeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */; };
+		39F80E331FA530A500D3B490 /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F80E321FA530A500D3B490 /* TeamListViewController.swift */; };
+		39F80E351FA530B700D3B490 /* TeamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F80E341FA530B700D3B490 /* TeamListTableViewCell.swift */; };
 		72D657343B93FE3225021F67 /* libPods-HockeyData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1CA2974F8D49B25AE53141 /* libPods-HockeyData.a */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +169,8 @@
 		39D610381DDE82FA0098BB61 /* AKRosterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKRosterTableViewCell.xib; sourceTree = "<group>"; };
 		39D6103B1DDE9E9F0098BB61 /* AKTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTeamTableViewCell.h; sourceTree = "<group>"; };
 		39D6103C1DDE9E9F0098BB61 /* AKTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTeamTableViewCell.m; sourceTree = "<group>"; };
+		39F80E321FA530A500D3B490 /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		39F80E341FA530B700D3B490 /* TeamListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListTableViewCell.swift; sourceTree = "<group>"; };
 		5486C23954C57671CD8D54D2 /* Pods-HockeyData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HockeyData/Pods-HockeyData.release.xcconfig"; sourceTree = "<group>"; };
 		6A1CA2974F8D49B25AE53141 /* libPods-HockeyData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HockeyData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5789936F49AC3B7941430EE /* Pods-Hockey Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey Data.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hockey Data/Pods-Hockey Data.release.xcconfig"; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 				396C8EA91CDAAF24004AD32D /* AKTeamsListTableViewCell.h */,
 				396C8EAA1CDAAF24004AD32D /* AKTeamsListTableViewCell.m */,
 				396C8EAD1CDAAF69004AD32D /* AKTeamsListTableViewCell.xib */,
+				39F80E321FA530A500D3B490 /* TeamListViewController.swift */,
+				39F80E341FA530B700D3B490 /* TeamListTableViewCell.swift */,
 			);
 			name = "Teams View";
 			sourceTree = "<group>";
@@ -630,12 +636,14 @@
 				3924FBDA1F94439C002C48B2 /* MSFTeamID.swift in Sources */,
 				398194931F7CB604007E2FB4 /* Game.swift in Sources */,
 				39195C7E1F945FCD00C81E6A /* RegularSeasonHistoryCell.swift in Sources */,
+				39F80E331FA530A500D3B490 /* TeamListViewController.swift in Sources */,
 				396C8E9D1CDA8AEB004AD32D /* AKTeamsListViewController.m in Sources */,
 				398194961F81A739007E2FB4 /* RemoteConfig.swift in Sources */,
 				3924FBD71F943496002C48B2 /* Season.swift in Sources */,
 				39D6102D1DDE7B060098BB61 /* AKTeamVenueTableViewCell.m in Sources */,
 				39D610281DDE73CA0098BB61 /* AKTeamTableViewController.m in Sources */,
 				39C14EC31E36EA4C009CE1A0 /* HDRegularSeasonTableViewCell.m in Sources */,
+				39F80E351FA530B700D3B490 /* TeamListTableViewCell.swift in Sources */,
 				39D610231DDE724E0098BB61 /* AKTeamGeneralInfoTableViewCell.m in Sources */,
 				39021AD31DCD000B00486657 /* UIImageView+Remote.m in Sources */,
 				39BC83561DE51EDA00A106A2 /* AKTeamCupsTableViewCell.m in Sources */,
@@ -773,6 +781,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pryanik.HockeyData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -798,6 +807,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "Hockey Data/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pryanik.HockeyData;
 				PRODUCT_NAME = "$(TARGET_NAME)";

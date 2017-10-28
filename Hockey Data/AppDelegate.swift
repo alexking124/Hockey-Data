@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let teamsNavigation = UINavigationController(rootViewController: AKTeamsListViewController())
+        let teamsNavigation = UINavigationController(rootViewController: TeamListViewController())
         window?.rootViewController = teamsNavigation
         
         config = FirebaseConfig()
